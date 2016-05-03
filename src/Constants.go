@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "math"
 
-const declares a constant value.
+//const identifier [type] = value
 const s string = "constant"
 
 func main() {

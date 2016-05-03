@@ -1,6 +1,8 @@
 package main
 import "fmt"	
 
+var i=10
+
 func main() {
 
     var a [5]int
