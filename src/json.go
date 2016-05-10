@@ -68,6 +68,12 @@ func main() {
     fmt.Println(res)
     fmt.Println(res.Fruits[0])
 
+    str2 := `{"page": 1, "fruits": ["apple", "peach"]}`
+    res2 := Response1{}
+    json.Unmarshal([]byte(str2), &res2)
+    fmt.Println(res2)
+    fmt.Println(res2.Fruits[0])
+
     enc := json.NewEncoder(os.Stdout)
     d := map[string]int{"apple": 5, "lettuce": 7}
     enc.Encode(d)
