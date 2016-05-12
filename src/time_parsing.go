@@ -13,7 +13,7 @@ func main() {
 
     p(t.Format("3:04PM"))
     p(t.Format("Mon Jan _2 15:04:05 2006"))
-    p(t.Format("2006-01-02T15:04:05.999999-07:00"))
+    p(t.Format("2006-01-02 15:04:05"))
 
     form := "3 04 PM"
     t2, e := time.Parse(form, "8 41 PM")
