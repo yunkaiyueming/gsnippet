@@ -4,14 +4,14 @@ import "time"
 import "fmt"
 
 func main() {
-    ticker := time.NewTicker(time.Millisecond * 500)
-    go func() {
-        for t := range ticker.C {
-            fmt.Println("Tick at", t)
-        }
-    }()
+	ticker := time.NewTicker(time.Millisecond * 500)
+	go func() {
+		for t := range ticker.C {
+			fmt.Println("Tick at", t)
+		}
+	}()
 
-    time.Sleep(time.Millisecond * 1600)
-    ticker.Stop()
-    fmt.Println("Ticker stopped")
+	time.Sleep(time.Millisecond * 1600)
+	ticker.Stop()
+	fmt.Println("Ticker stopped")
 }
