@@ -1,12 +1,17 @@
 package main
 
 import (
+	"crypto/aes"
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
 )
 
 func main() {
+	MyMd5()
+}
+
+func MyMd5() {
 	hash_type := md5.New()
 	hash_type.Write([]byte("123456")) // 需要加密的字符串为 sharejs.com
 
