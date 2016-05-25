@@ -18,4 +18,13 @@ func main() {
 
 	newInts := intSeq()
 	fmt.Println(newInts())
+
+	add5 := add(5)
+	fmt.Println(add5(10))
+}
+
+func add(base int) func(i int) int {
+	return func(i int) int {
+		return i + base
+	}
 }
