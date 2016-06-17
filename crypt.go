@@ -22,3 +22,20 @@ func MyMd5() {
 	data := []byte("123456")
 	fmt.Printf("%x", md5.Sum(data))
 }
+
+func Test() {
+	//import "crypto/sha256"
+	h := sha256.New()
+	io.WriteString(h, "His money is twice tainted: 'taint yours and 'taint mine.")
+	fmt.Printf("% x", h.Sum(nil))
+
+	//import "crypto/sha1"
+	h := sha1.New()
+	io.WriteString(h, "His money is twice tainted: 'taint yours and 'taint mine.")
+	fmt.Printf("% x", h.Sum(nil))
+
+	//import "crypto/md5"
+	h := md5.New()
+	io.WriteString(h, "需要加密的密码")
+	fmt.Printf("%x", h.Sum(nil))
+}
