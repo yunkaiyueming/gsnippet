@@ -18,4 +18,10 @@ func main() {
 		fmt.Println("loop")
 		break
 	}
+
+	for i = 0; i < 5; i++ {
+		var t int
+		fmt.Printf("%d", t) // 0
+		t = 10
+	}
 }

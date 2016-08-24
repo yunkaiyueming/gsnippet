@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
+	TestMap()
+}
 
+func InitMap() {
 	//make方式创建
 	m := make(map[string]int)
 	m["k1"] = 7
@@ -23,4 +26,11 @@ func main() {
 	//map类型创建
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
+}
+
+func TestMap() {
+	capitals := map[string]string{"France": "Paris", "Italy": "Rome", "Japan": "Tokyo"}
+	for key := range capitals {
+		fmt.Println("Map item: Capital of", key, "is", capitals[key])
+	}
 }

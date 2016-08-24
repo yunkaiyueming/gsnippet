@@ -3,23 +3,52 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
+	"os"
 )
 
 func main() {
-	dir_path := "E:/www2/GitHub/go_code/src"
-	file_infos, _ := ioutil.ReadDir(dir_path)
+	//ListDirFiles("E:/GO_PATH/src/go_code")
 
-	//	Name() string       // base name of the file
-	//	Size() int64        // length in bytes for regular files; system-dependent for others
-	//	Mode() FileMode     // file mode bits
-	//	ModTime() time.Time // modification time
-	//	IsDir() bool        // abbreviation for Mode().IsDir()
-	//	Sys() interface{}
+	//Mkdir("E:/GO_PATH/src/go_code/ok")
+	//DeleteDir("E:/GO_PATH/src/go_code/ok")
 
+	//CreateFile("E:/GO_PATH/src/go_code/1test.log")
+	//DeleteFile("E:/GO_PATH/src/go_code/1test.log")
+
+	//GetFileInfo("E:/GO_PATH/src/go_code/append.go")
+	GetUserPwd()
+}
+
+//读取指定目录下的文件及目录
+func ListDirFiles(dirPath string) {
+	file_infos, _ := ioutil.ReadDir(dirPath)
 	for i, file_info := range file_infos {
 		fmt.Println(i, file_info.Name(), file_info.Size(), file_info.Mode(), file_info.IsDir())
 	}
+}
 
-	log.Fatal("log fatal")
+func Mkdir(dirName string) {
+	os.MkdirAll(dirName, 755)
+}
+
+func DeleteDir(dirPath string) {
+	os.Remove(dirPath)
+}
+
+func CreateFile(filename string) {
+	os.Create(filename)
+}
+
+func DeleteFile(filename string) {
+	os.Remove(filename)
+}
+
+func GetFileInfo(filePath string) {
+	info, _ := os.Stat(filePath)
+	fmt.Println(info)
+}
+
+func GetUserPwd() {
+	pwd, _ := os.Getwd()
+	fmt.Println(pwd)
 }

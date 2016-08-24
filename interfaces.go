@@ -16,6 +16,14 @@ type circle struct {
 	radius float64
 }
 
+//GO版本的多态，接口是该方法更具一般性
+//此方法的应用在 type A,B都有一个ok()方法，于是定义个m接口有ok()方法，然后写个callOK()里传入m接口类型的方法，就可以根据类型自己调用了
+func measure(g geometry) {
+	fmt.Println(g)
+	fmt.Println(g.area())
+	fmt.Println(g.perim())
+}
+
 func (r rect) area() float64 {
 	return r.width * r.height
 }
@@ -32,15 +40,11 @@ func (c circle) perim() float64 {
 	return 2 * math.Pi * c.radius
 }
 
-func measure(g geometry) {
-	fmt.Println(g)
-	fmt.Println(g.area())
-	fmt.Println(g.perim())
-}
-
 func main() {
 	r := rect{width: 3, height: 4}
 	c := circle{radius: 5}
-	measure(r)
-	measure(c)
+	gets := []geometry{r, c}
+	for _, v := range gets {
+		measure(v)
+	}
 }

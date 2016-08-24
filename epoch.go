@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 import "time"
+import "github.com/astaxie/beego"
 
 func main() {
 	now := time.Now()
@@ -16,4 +17,9 @@ func main() {
 
 	fmt.Println(time.Unix(secs, 0))
 	fmt.Println(time.Unix(0, nanos))
+
+}
+
+func Test() {
+	fmt.Println("123")
 }
