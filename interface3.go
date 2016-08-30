@@ -1,3 +1,5 @@
+package main
+
 type ReadWrite interface {
 	Read(b Buffer) bool
 	Write(b Buffer) bool

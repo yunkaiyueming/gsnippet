@@ -13,3 +13,12 @@ func main() {
 	fmt.Println(argsWithoutProg)
 	fmt.Println(arg)
 }
+
+func tips() {
+	fmt.Println("ok")
+	i := true
+	if i {
+		fmt.Println("aa")
+	}
+	fmt.Println("wrong")
+}

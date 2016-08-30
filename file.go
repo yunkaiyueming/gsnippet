@@ -72,3 +72,101 @@ func main() {
 	//	w.Flush()
 	//	f.Close()
 }
+
+func (this *FileController) ListDir() {
+	dirPath := "E:/GO_PATH/src/beego_action"
+	rFile, _ := os.Open(dirPath)
+	fileInfos, _ := rFile.Readdir(-1)
+
+	this.Data["fileInfos"] = fileInfos
+	this.MyRender("file/view_list_dir.html")
+}
+
+func ReadByOsRead(path string) string {
+	fi, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+	defer fi.Close()
+
+	chunks := make([]byte, 1024, 1024)
+	buf := make([]byte, 1024)
+	for {
+		n, err := fi.Read(buf)
+		if err != nil && err != io.EOF {
+			panic(err)
+		}
+		if 0 == n {
+			break
+		}
+		chunks = append(chunks, buf[:n]...)
+		// fmt.Println(string(buf[:n]))
+	}
+	return string(chunks)
+}
+
+func ReadByBufio(path string) string {
+	fi, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+	defer fi.Close()
+	r := bufio.NewReader(fi)
+
+	chunks := make([]byte, 1024, 1024)
+
+	buf := make([]byte, 1024)
+	for {
+		n, err := r.Read(buf)
+		if err != nil && err != io.EOF {
+			panic(err)
+		}
+		if 0 == n {
+			break
+		}
+		chunks = append(chunks, buf[:n]...)
+		// fmt.Println(string(buf[:n]))
+	}
+	return string(chunks)
+}
+
+func ReadByIoutil(path string) string {
+	fi, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+	defer fi.Close()
+	fd, err := ioutil.ReadAll(fi)
+	// fmt.Println(string(fd))
+	return string(fd)
+}
+
+// filecopy.go
+package main
+
+import (
+    "fmt"
+    "io"
+    "os"
+)
+
+func main() {
+    CopyFile("target.txt", "source.txt")
+    fmt.Println("Copy done!")
+}
+
+func CopyFile(dstName, srcName string) (written int64, err error) {
+    src, err := os.Open(srcName)
+    if err != nil {
+        return
+    }
+    defer src.Close()
+
+    dst, err := os.OpenFile(dstName, os.O_WRONLY|os.O_CREATE, 0644)
+    if err != nil {
+        return
+    }
+    defer dst.Close()
+
+    return io.Copy(dst, src)
+}

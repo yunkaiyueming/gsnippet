@@ -16,4 +16,7 @@ func main() {
 
 	res = plusPlus(1, 2, 3)
 	fmt.Println("1+2+3 =", res)
+
+	fmt.Println("adf")
+	postFile
 }

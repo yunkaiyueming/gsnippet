@@ -45,7 +45,7 @@ func main() {
 	}
 
 	_, e := f2(42)
-	if ae, ok := e.(*argError); ok {
+	if ae, ok := e.(*argError); ok { //类型断言
 		fmt.Println(ae.arg)
 		fmt.Println(ae.prob)
 	}

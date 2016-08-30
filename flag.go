@@ -3,9 +3,14 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 )
 
 func main() {
+	PareByFlag()
+}
+
+func PareByFlag() {
 	id := flag.Int("id", 1, "id for user_id")
 	name := flag.String("name", "aaa", "name for user_name")
 	a := flag.Int("a", 20, "a value")
@@ -21,4 +26,12 @@ func main() {
 	fmt.Println(*name)
 	fmt.Println(is_ok)
 	fmt.Println(c)
+}
+
+func pareByOs() {
+	who := "Alice "
+	if len(os.Args) > 1 {
+		who += strings.Join(os.Args[1:], " ")
+	}
+	fmt.Println("Good Morning", who)
 }
