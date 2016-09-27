@@ -20,6 +20,7 @@ func main() {
 		fmt.Println("Usage: ", os.Args[0], "server")
 		os.Exit(1)
 	}
+	fmt.Println(os.Args)
 	serverAddress := os.Args[1]
 
 	client, err := rpc.DialHTTP("tcp", serverAddress+":1234")

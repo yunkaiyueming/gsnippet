@@ -17,6 +17,8 @@ func main() {
 	t1 := StrToFormateDate(str_time)
 	t2 := StrToFormateDate(end_time)
 	fmt.Println(t1.Sub(t2).String())
+
+	fmt.Println(MyNowDate("2006-01-02"))
 }
 
 func StrToLocalTime(StrDateTime string) int64 {

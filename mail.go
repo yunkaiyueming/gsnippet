@@ -7,10 +7,10 @@ import (
 )
 
 func main() {
-	user := ""
-	password := "***"
+	user := "819664855@qq.com"
+	password := "xhc100606"
 	host := "smtp.exmail.qq.com:25"
-	to := ""
+	to := "hongcheng.xu@rayjoy.com"
 
 	subject := "使用Golang发送邮件"
 
