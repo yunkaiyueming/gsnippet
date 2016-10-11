@@ -6,6 +6,20 @@ import (
 )
 
 func main() {
+	sumFunc := Init_func()
+	fmt.Println(sumFunc(5, 6))
+}
+
+func Init_func() func(x, y int) int {
+	reduceFun := func(x, y int) int {
+		fmt.Println("run hele") //赋值的时候不会调用
+		return x + y
+	}
+
+	return reduceFun
+}
+
+func func_val() {
 	/* 声明函数变量 */
 	getSquareRoot := func(x float64) float64 {
 		return math.Sqrt(x)
