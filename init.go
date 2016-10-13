@@ -5,6 +5,7 @@ import (
 )
 
 func prepare() {
+	fmt.Println(1e9)
 	fmt.Println("prepare")
 }
 
