@@ -7,3 +7,7 @@ func MyPlus(a, b int) int {
 func MyDive(a, b int) int {
 	return a / b
 }
+
+func MySub(a, b int) int {
+	return a - b
+}
