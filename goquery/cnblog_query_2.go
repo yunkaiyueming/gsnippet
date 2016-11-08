@@ -9,31 +9,29 @@ import (
 	"runtime"
 	"time"
 
+	"sync"
+
 	"github.com/PuerkitoBio/goquery"
 )
 
 var PageNum = 50
-var isDone = make(chan int, PageNum)
+var JobGroup sync.WaitGroup
 
-func prepare() {
+func init() {
 	runtime.GOMAXPROCS(runtime.NumCPU()) //多核实在CPU计算上更显优势
-	//runtime.GOMAXPROCS(1)
 }
 
 func main() {
-	prepare()
 	start_time := time.Now().Unix()
 	for i := 1; i <= PageNum; i++ {
+		JobGroup.Add(1)
+
 		clawPageUrl := ParsePageUrl(i)
 		go StartClaw(clawPageUrl, i)
 		fmt.Println(i)
 	}
 
-	for i := 1; i <= PageNum; i++ {
-		<-isDone
-		fmt.Println(i, "Done")
-		fmt.Println("NumGoroutine:", runtime.NumGoroutine())
-	}
+	JobGroup.Wait()
 	end_time := time.Now().Unix()
 	fmt.Println("spend time: ", end_time-start_time)
 	fmt.Println("All finish")
@@ -56,22 +54,6 @@ func RecordRes() {
 
 }
 
-func StartClawGolang(clawUrl string, CurrentPage int) {
-	doc, err := goquery.NewDocument(clawUrl)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Println("========= page: ", CurrentPage, "=========")
-	doc.Find("h3.searchItemTitle").Each(func(i int, s *goquery.Selection) {
-		text := s.Text()
-		url, _ := s.Find("a").Attr("href")
-		fmt.Printf("Review %d: %s - %s \n", i, text, url)
-	})
-
-	isDone <- 1
-}
-
 func StartClaw(clawUrl string, CurrentPage int) {
 	doc, err := goquery.NewDocument(clawUrl)
 	if err != nil {
@@ -86,5 +68,5 @@ func StartClaw(clawUrl string, CurrentPage int) {
 		fmt.Printf("Review %d: %s - %s\n", i, text, href)
 	})
 
-	isDone <- 1
+	JobGroup.Done()
 }

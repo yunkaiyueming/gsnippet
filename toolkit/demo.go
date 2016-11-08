@@ -6,7 +6,7 @@ import (
 	"github.com/toolkits/net"
 )
 
-func main() {
+func test() {
 	p := fmt.Println
 	p(net.IntranetIP())        //获取本地机器的局域网IP
 	p(net.GrabEphemeralPort()) //获取当前的程序的运行端口

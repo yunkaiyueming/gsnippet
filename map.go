@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
+var mapData map[string]int
+
 func main() {
 	TestMap()
+	TestMap2()
 }
 
 func InitMap() {
@@ -33,4 +36,13 @@ func TestMap() {
 	for key := range capitals {
 		fmt.Println("Map item: Capital of", key, "is", capitals[key])
 	}
+}
+
+func TestMap2() {
+	//var mapData map[string]int = map[string]int{}
+
+	//mapData = make(map[string]int)
+	fmt.Println(mapData)
+	mapData["s"] = 4
+	fmt.Println(mapData)
 }
