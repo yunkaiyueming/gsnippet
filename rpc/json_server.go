@@ -34,7 +34,6 @@ func (t *Arith) Divide(args *Args, quo *Quotient) error {
 }
 
 func main() {
-
 	arith := new(Arith)
 	rpc.Register(arith)
 
@@ -49,6 +48,10 @@ func main() {
 		if err != nil {
 			continue
 		}
+		println(conn)
+		getByte := make([]byte, 1024)
+		n, _ := conn.Read(getByte)
+		println(getByte[:n])
 		jsonrpc.ServeConn(conn)
 	}
 

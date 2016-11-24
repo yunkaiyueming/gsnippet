@@ -17,7 +17,7 @@ type Quotient struct {
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: ", os.Args[0], "server:port")
+		fmt.Println("Usage: ", os.Args[0], "127.0.0.1:1234")
 		log.Fatal(1)
 	}
 	service := os.Args[1]

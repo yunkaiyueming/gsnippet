@@ -10,6 +10,7 @@ import (
 	"strings"
 )
 
+//用go实现的websocket协议
 func main() {
 	ln, err := net.Listen("tcp", ":8000")
 	if err != nil {
