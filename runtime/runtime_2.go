@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-	test()
+	test2()
+}
+
+func test2() {
+	test_1()
 }
 
 func test_1() {
