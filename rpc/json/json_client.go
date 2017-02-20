@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/rpc/jsonrpc"
-	"os"
+	_ "os"
 )
 
 type Args struct {
@@ -16,16 +16,19 @@ type Quotient struct {
 }
 
 func main() {
-	if len(os.Args) != 2 {
-		fmt.Println("Usage: ", os.Args[0], "127.0.0.1:1234")
-		log.Fatal(1)
-	}
-	service := os.Args[1]
+	//fmt.Println(os.Args)
 
-	client, err := jsonrpc.Dial("tcp", service)
+	//	if len(os.Args) != 2 {
+	//		fmt.Println("Usage: ", os.Args[0], "127.0.0.1:1234")
+	//		log.Fatal(1)
+	//	}
+	//service := os.Args[1]
+
+	client, err := jsonrpc.Dial("tcp", "127.0.0.1:1234")
 	if err != nil {
 		log.Fatal("dialing:", err)
 	}
+
 	// Synchronous call
 	args := Args{17, 8}
 	var reply int

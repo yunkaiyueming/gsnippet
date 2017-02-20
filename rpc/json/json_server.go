@@ -21,6 +21,7 @@ type Arith int
 
 func (t *Arith) Multiply(args *Args, reply *int) error {
 	*reply = args.A * args.B
+	fmt.Println(*reply)
 	return nil
 }
 
@@ -48,10 +49,6 @@ func main() {
 		if err != nil {
 			continue
 		}
-		println(conn)
-		getByte := make([]byte, 1024)
-		n, _ := conn.Read(getByte)
-		println(getByte[:n])
 		jsonrpc.ServeConn(conn)
 	}
 
