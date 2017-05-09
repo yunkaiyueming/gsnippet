@@ -14,7 +14,7 @@ func New(code int, msg string) *MyError {
 	return &MyError{code, msg}
 }
 
-func (this *MyError) Error() {
+func (this *MyError) Error() { //实现了error接口
 	fmt.Println(this.ErrorNum, this.ErrorMsg)
 }
 
