@@ -8,6 +8,7 @@ import (
 
 func main() {
 	TestEscapge()
+	templateString()
 }
 
 func templateString() {
@@ -25,9 +26,22 @@ func templateString() {
 }
 
 func TestEscapge() {
-	str := template.HTMLEscapeString("<br>hello</br>")
+	str := template.HTMLEscapeString("<br>hello</br>") //转义
 	fmt.Println(str)
 
-	jsStr := template.JSEscapeString("<script>alert('123')</script>")
+	t, err := template.New("foo").Parse(`{{define "T"}}Hello, {{.}}!{{end}}`)
+	err = t.ExecuteTemplate(os.Stdout, "T", "<br>hello</br><script>alert('you have been pwned')</script>") //不转义
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+	fmt.Println()
+
+	t2 := template.New("foo2")
+	t2, err = t2.Parse(`这个是Hello2, <br>hello</br><script>alert('you have been pwned')</script>!`)
+	err = t2.Execute(os.Stdout, nil)
+	fmt.Println()
+
+	jsStr := template.JSEscapeString("<script>alert('123')</script>") //js转义
 	fmt.Println(jsStr)
+
 }
