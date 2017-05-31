@@ -6,20 +6,20 @@ import (
 )
 
 type student struct {
-	name string "the student name"
-	age  int    "the student age"
+	name string `json:"the student name"`
+	age  int    `json:"the student age"`
 }
 
 func main() {
-	s := student{"twd", 12}
-	PrintTypeVal(s)
-	//GetAllField(s)
+	//	s := student{"twd", 12}
+	//	PrintTypeVal(s)
+	//	GetAllField(s)
 
-	i := 10
-	PrintTypeVal(i)
+	//	i := 10
+	//	PrintTypeVal(i)
 
-	a := "xhcabc"
-	PrintTypeVal(a)
+	//	a := "xhcabc"
+	//	PrintTypeVal(a)
 
 	Test()
 }
@@ -27,10 +27,11 @@ func main() {
 func PrintTypeVal(i interface{}) {
 	fmt.Println(reflect.TypeOf(i))
 	fmt.Println(reflect.ValueOf(i))
-	fmt.Printf("%T", i)
+	fmt.Printf("%T\n", i)
 }
 
 func GetAllField(s student) {
+	fmt.Println("------field-------")
 	for i := 0; i < 2; i++ {
 		GetFieldByReflect(s, i)
 	}
@@ -45,13 +46,11 @@ func GetFieldByReflect(s student, i int) {
 func Test() {
 	var x float64 = 3.4
 	fmt.Println("type:", reflect.TypeOf(x))
-	v := reflect.ValueOf(x)
-	fmt.Println("value:", v)
-	fmt.Println("type:", v.Type())
-	fmt.Println("kind:", v.Kind())
-	fmt.Println("value:", v.Float())
-	fmt.Println(v.Interface())
-	fmt.Printf("value is %5.2e\n", v.Interface())
-	y := v.Interface().(float64)
-	fmt.Println(y)
+	fmt.Println("value:", reflect.ValueOf(x))
+	fmt.Println("type:", reflect.ValueOf(x).Type())
+	fmt.Println("kind:", reflect.ValueOf(x).Kind())
+	fmt.Println("value:", reflect.ValueOf(x).Float())
+	fmt.Println(reflect.ValueOf(x).Interface())
+	fmt.Printf("value is %5.2e\n", reflect.ValueOf(x).Interface())
+	fmt.Println(reflect.ValueOf(x).Interface().(float64))
 }
