@@ -5,7 +5,11 @@ import "fmt"
 var i = 10
 
 func main() {
+	okSlice()
+	testSlice()
+}
 
+func okSlice() {
 	var a [5]int
 	fmt.Println("emp:", a)
 
@@ -25,4 +29,10 @@ func main() {
 	}
 
 	fmt.Println("2d: ", twoD)
+}
+
+func testSlice() {
+	arr := make([]string, 1) //arr := make([]string, 1)报错
+	fmt.Println(arr)
+	arr[0] = "ok"
 }
