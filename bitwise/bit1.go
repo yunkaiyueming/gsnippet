@@ -45,7 +45,7 @@ func bitComplement() {
 }
 
 func bitLeft(length uint) { //1 0101 0000
-	fmt.Println(a << length) //256+64+16=336
+	fmt.Println(a << length) //256+64+16=336 = 42*8
 }
 
 func bitRight(length uint) { //0000 0011

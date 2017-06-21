@@ -1,3 +1,5 @@
+package main
+
 func getMonthDate(month, bigAppId string) map[string]string {
 	monthDates := make(map[string]string)
 	dateStr := month + "-01"
