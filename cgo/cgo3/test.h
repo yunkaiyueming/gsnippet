@@ -1,0 +1,2 @@
+void sayHi();
+void sayHello();
