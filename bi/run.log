@@ -1,0 +1,1428 @@
+2017/07/24 17:43:17 [A] fname:main.main,start_time:2017-07-24 17:43:17
+
+2017/07/24 17:43:18 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:43:18 [A] fanme:main.main,end_time:2017-07-24 17:43:18,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:44:17 [A] fname:main.main,start_time:2017-07-24 17:44:17
+
+2017/07/24 17:44:18 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:44:18 [A] fanme:main.main,end_time:2017-07-24 17:44:18,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:45:17 [A] fname:main.main,start_time:2017-07-24 17:45:17
+
+2017/07/24 17:45:18 [I] {
+  "data": 11285,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:45:18 [A] fanme:main.main,end_time:2017-07-24 17:45:18,ret:{
+  "data": 11285,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:46:17 [A] fname:main.main,start_time:2017-07-24 17:46:17
+
+2017/07/24 17:46:17 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:46:17 [A] fanme:main.main,end_time:2017-07-24 17:46:17,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:47:17 [A] fname:main.main,start_time:2017-07-24 17:47:17
+
+2017/07/24 17:47:18 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:47:18 [A] fanme:main.main,end_time:2017-07-24 17:47:18,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:48:17 [A] fname:main.main,start_time:2017-07-24 17:48:17
+
+2017/07/24 17:48:18 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:48:18 [A] fanme:main.main,end_time:2017-07-24 17:48:18,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:49:17 [A] fname:main.main,start_time:2017-07-24 17:49:17
+
+2017/07/24 17:49:20 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:49:20 [A] fanme:main.main,end_time:2017-07-24 17:49:20,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:50:17 [A] fname:main.main,start_time:2017-07-24 17:50:17
+
+2017/07/24 17:50:18 [I] {
+  "data": 11284,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:50:18 [A] fanme:main.main,end_time:2017-07-24 17:50:18,ret:{
+  "data": 11284,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:51:17 [A] fname:main.main,start_time:2017-07-24 17:51:17
+
+2017/07/24 17:51:17 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:51:17 [A] fanme:main.main,end_time:2017-07-24 17:51:17,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:52:17 [A] fname:main.main,start_time:2017-07-24 17:52:17
+
+2017/07/24 17:52:19 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:52:19 [A] fanme:main.main,end_time:2017-07-24 17:52:19,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 17:53:17 [A] fname:main.main,start_time:2017-07-24 17:53:17
+
+2017/07/24 17:53:18 [I] {
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+2017/07/24 17:53:18 [A] fanme:main.main,end_time:2017-07-24 17:53:18,ret:{
+  "data": 11222,
+  "error": "",
+  "error_code": 0
+}
+
+2017/07/24 18:05:40 [A] fname:main.main,start_time:2017-07-24 18:05:40
+
+2017/07/24 18:05:41 [I] 11213
+2017/07/24 18:05:41 [A] fanme:main.main,end_time:2017-07-24 18:05:41,ret:11213.00
+
+2017/07/24 18:10:40 [A] fname:main.main,start_time:2017-07-24 18:10:40
+
+2017/07/24 18:10:41 [I] 11213
+2017/07/24 18:10:41 [A] fanme:main.main,end_time:2017-07-24 18:10:41,ret:11213.00
+
+2017/07/24 18:15:40 [A] fname:main.main,start_time:2017-07-24 18:15:40
+
+2017/07/24 18:15:41 [I] 11221
+2017/07/24 18:15:41 [A] fanme:main.main,end_time:2017-07-24 18:15:41,ret:11221.00
+
+2017/07/24 18:20:40 [A] fname:main.main,start_time:2017-07-24 18:20:40
+
+2017/07/24 18:20:41 [I] 11213
+2017/07/24 18:20:41 [A] fanme:main.main,end_time:2017-07-24 18:20:41,ret:11213.00
+
+2017/07/24 18:25:40 [A] fname:main.main,start_time:2017-07-24 18:25:40
+
+2017/07/24 18:25:41 [I] 11213
+2017/07/24 18:25:41 [A] fanme:main.main,end_time:2017-07-24 18:25:41,ret:11213.00
+
+2017/07/24 18:30:40 [A] fname:main.main,start_time:2017-07-24 18:30:40
+
+2017/07/24 18:30:41 [I] 11213
+2017/07/24 18:30:41 [A] fanme:main.main,end_time:2017-07-24 18:30:41,ret:11213.00
+
+2017/07/24 18:35:40 [A] fname:main.main,start_time:2017-07-24 18:35:40
+
+2017/07/24 18:35:41 [I] 11213
+2017/07/24 18:35:41 [A] fanme:main.main,end_time:2017-07-24 18:35:41,ret:11213.00
+
+2017/07/24 18:40:40 [A] fname:main.main,start_time:2017-07-24 18:40:40
+
+2017/07/24 18:40:41 [I] 11213
+2017/07/24 18:40:41 [A] fanme:main.main,end_time:2017-07-24 18:40:41,ret:11213.00
+
+2017/07/24 18:45:40 [A] fname:main.main,start_time:2017-07-24 18:45:40
+
+2017/07/24 18:45:41 [I] 11213
+2017/07/24 18:45:41 [A] fanme:main.main,end_time:2017-07-24 18:45:41,ret:11213.00
+
+2017/07/24 18:50:40 [A] fname:main.main,start_time:2017-07-24 18:50:40
+
+2017/07/24 18:50:41 [I] 11213
+2017/07/24 18:50:41 [A] fanme:main.main,end_time:2017-07-24 18:50:41,ret:11213.00
+
+2017/07/24 18:55:54 [A] fname:main.main,start_time:2017-07-24 18:55:54
+
+2017/07/24 18:55:54 [I] 11234
+2017/07/24 18:55:54 [A] fanme:main.main,end_time:2017-07-24 18:55:54,ret:11234.00
+
+2017/07/24 18:55:59 [A] fname:main.main,start_time:2017-07-24 18:55:59
+
+2017/07/24 18:55:59 [I] 11234
+2017/07/24 18:55:59 [A] fanme:main.main,end_time:2017-07-24 18:55:59,ret:11234.00
+
+2017/07/24 18:56:04 [A] fname:main.main,start_time:2017-07-24 18:56:04
+
+2017/07/24 18:56:04 [I] 11234
+2017/07/24 18:56:04 [A] fanme:main.main,end_time:2017-07-24 18:56:04,ret:11234.00
+
+2017/07/24 18:56:09 [A] fname:main.main,start_time:2017-07-24 18:56:09
+
+2017/07/24 18:56:09 [I] 11234
+2017/07/24 18:56:09 [A] fanme:main.main,end_time:2017-07-24 18:56:09,ret:11234.00
+
+2017/07/24 18:56:14 [A] fname:main.main,start_time:2017-07-24 18:56:14
+
+2017/07/24 18:56:14 [I] 11233
+2017/07/24 18:56:14 [A] fanme:main.main,end_time:2017-07-24 18:56:14,ret:11233.00
+
+2017/07/24 18:56:19 [A] fname:main.main,start_time:2017-07-24 18:56:19
+
+2017/07/24 18:56:19 [I] 11233
+2017/07/24 18:56:19 [A] fanme:main.main,end_time:2017-07-24 18:56:19,ret:11233.00
+
+2017/07/24 18:56:24 [A] fname:main.main,start_time:2017-07-24 18:56:24
+
+2017/07/24 18:56:24 [I] 11233
+2017/07/24 18:56:24 [A] fanme:main.main,end_time:2017-07-24 18:56:24,ret:11233.00
+
+2017/07/24 18:56:29 [A] fname:main.main,start_time:2017-07-24 18:56:29
+
+2017/07/24 18:56:29 [I] 11233
+2017/07/24 18:56:29 [A] fanme:main.main,end_time:2017-07-24 18:56:29,ret:11233.00
+
+2017/07/24 18:56:34 [A] fname:main.main,start_time:2017-07-24 18:56:34
+
+2017/07/24 18:56:34 [I] 11233
+2017/07/24 18:56:34 [A] fanme:main.main,end_time:2017-07-24 18:56:34,ret:11233.00
+
+2017/07/24 18:56:39 [A] fname:main.main,start_time:2017-07-24 18:56:39
+
+2017/07/24 18:56:39 [I] 11233
+2017/07/24 18:56:39 [A] fanme:main.main,end_time:2017-07-24 18:56:39,ret:11233.00
+
+2017/07/24 18:56:44 [A] fname:main.main,start_time:2017-07-24 18:56:44
+
+2017/07/24 18:56:44 [I] 11233
+2017/07/24 18:56:44 [A] fanme:main.main,end_time:2017-07-24 18:56:44,ret:11233.00
+
+2017/07/24 18:56:49 [A] fname:main.main,start_time:2017-07-24 18:56:49
+
+2017/07/24 18:56:49 [I] 11233
+2017/07/24 18:56:49 [A] fanme:main.main,end_time:2017-07-24 18:56:49,ret:11233.00
+
+2017/07/24 18:56:54 [A] fname:main.main,start_time:2017-07-24 18:56:54
+
+2017/07/24 18:56:54 [I] 11233
+2017/07/24 18:56:54 [A] fanme:main.main,end_time:2017-07-24 18:56:54,ret:11233.00
+
+2017/07/24 18:56:59 [A] fname:main.main,start_time:2017-07-24 18:56:59
+
+2017/07/24 18:56:59 [I] 11233
+2017/07/24 18:56:59 [A] fanme:main.main,end_time:2017-07-24 18:56:59,ret:11233.00
+
+2017/07/24 18:57:04 [A] fname:main.main,start_time:2017-07-24 18:57:04
+
+2017/07/24 18:57:04 [I] 11233
+2017/07/24 18:57:04 [A] fanme:main.main,end_time:2017-07-24 18:57:04,ret:11233.00
+
+2017/07/24 18:57:09 [A] fname:main.main,start_time:2017-07-24 18:57:09
+
+2017/07/24 18:57:09 [I] 11233
+2017/07/24 18:57:09 [A] fanme:main.main,end_time:2017-07-24 18:57:09,ret:11233.00
+
+2017/07/24 18:57:14 [A] fname:main.main,start_time:2017-07-24 18:57:14
+
+2017/07/24 18:57:14 [I] 11233
+2017/07/24 18:57:14 [A] fanme:main.main,end_time:2017-07-24 18:57:14,ret:11233.00
+
+2017/07/24 18:57:35 [A] fname:recordRoutine,start_time:2017-07-24 18:57:35
+
+2017/07/24 18:57:35 [I] 11233
+2017/07/24 18:57:35 [A] fanme:recordRoutine,end_time:2017-07-24 18:57:35,ret:11233.00
+
+2017/07/24 18:57:40 [A] fname:recordRoutine,start_time:2017-07-24 18:57:40
+
+2017/07/24 18:57:40 [I] 11233
+2017/07/24 18:57:40 [A] fanme:recordRoutine,end_time:2017-07-24 18:57:40,ret:11233.00
+
+2017/07/24 18:57:45 [A] fname:recordRoutine,start_time:2017-07-24 18:57:45
+
+2017/07/24 18:57:45 [I] 11233
+2017/07/24 18:57:45 [A] fanme:recordRoutine,end_time:2017-07-24 18:57:45,ret:11233.00
+
+2017/07/24 18:57:50 [A] fname:recordRoutine,start_time:2017-07-24 18:57:50
+
+2017/07/24 18:57:50 [I] 11233
+2017/07/24 18:57:50 [A] fanme:recordRoutine,end_time:2017-07-24 18:57:50,ret:11233.00
+
+2017/07/24 18:57:55 [A] fname:recordRoutine,start_time:2017-07-24 18:57:55
+
+2017/07/24 18:57:55 [I] 11233
+2017/07/24 18:57:55 [A] fanme:recordRoutine,end_time:2017-07-24 18:57:55,ret:11233.00
+
+2017/07/24 18:58:00 [A] fname:recordRoutine,start_time:2017-07-24 18:58:00
+
+2017/07/24 18:58:00 [I] 11233
+2017/07/24 18:58:00 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:00,ret:11233.00
+
+2017/07/24 18:58:05 [A] fname:recordRoutine,start_time:2017-07-24 18:58:05
+
+2017/07/24 18:58:05 [I] 11233
+2017/07/24 18:58:05 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:05,ret:11233.00
+
+2017/07/24 18:58:10 [A] fname:recordRoutine,start_time:2017-07-24 18:58:10
+
+2017/07/24 18:58:10 [I] 11233
+2017/07/24 18:58:10 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:10,ret:11233.00
+
+2017/07/24 18:58:15 [A] fname:recordRoutine,start_time:2017-07-24 18:58:15
+
+2017/07/24 18:58:15 [I] 11233
+2017/07/24 18:58:15 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:15,ret:11233.00
+
+2017/07/24 18:58:20 [A] fname:recordRoutine,start_time:2017-07-24 18:58:20
+
+2017/07/24 18:58:20 [I] 11233
+2017/07/24 18:58:20 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:20,ret:11233.00
+
+2017/07/24 18:58:25 [A] fname:recordRoutine,start_time:2017-07-24 18:58:25
+
+2017/07/24 18:58:25 [I] 11233
+2017/07/24 18:58:25 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:25,ret:11233.00
+
+2017/07/24 18:58:30 [A] fname:recordRoutine,start_time:2017-07-24 18:58:30
+
+2017/07/24 18:58:30 [I] 11233
+2017/07/24 18:58:30 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:30,ret:11233.00
+
+2017/07/24 18:58:35 [A] fname:recordRoutine,start_time:2017-07-24 18:58:35
+
+2017/07/24 18:58:35 [I] 11233
+2017/07/24 18:58:35 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:35,ret:11233.00
+
+2017/07/24 18:58:40 [A] fname:recordRoutine,start_time:2017-07-24 18:58:40
+
+2017/07/24 18:58:40 [I] 11233
+2017/07/24 18:58:40 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:40,ret:11233.00
+
+2017/07/24 18:58:45 [A] fname:recordRoutine,start_time:2017-07-24 18:58:45
+
+2017/07/24 18:58:45 [I] 11233
+2017/07/24 18:58:45 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:45,ret:11233.00
+
+2017/07/24 18:58:50 [A] fname:recordRoutine,start_time:2017-07-24 18:58:50
+
+2017/07/24 18:58:50 [I] 11233
+2017/07/24 18:58:50 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:50,ret:11233.00
+
+2017/07/24 18:58:55 [A] fname:recordRoutine,start_time:2017-07-24 18:58:55
+
+2017/07/24 18:58:55 [I] 11233
+2017/07/24 18:58:55 [A] fanme:recordRoutine,end_time:2017-07-24 18:58:55,ret:11233.00
+
+2017/07/24 18:59:00 [A] fname:recordRoutine,start_time:2017-07-24 18:59:00
+
+2017/07/24 18:59:00 [I] 11233
+2017/07/24 18:59:00 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:00,ret:11233.00
+
+2017/07/24 18:59:05 [A] fname:recordRoutine,start_time:2017-07-24 18:59:05
+
+2017/07/24 18:59:05 [I] 11233
+2017/07/24 18:59:05 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:05,ret:11233.00
+
+2017/07/24 18:59:10 [A] fname:recordRoutine,start_time:2017-07-24 18:59:10
+
+2017/07/24 18:59:10 [I] 11233
+2017/07/24 18:59:10 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:10,ret:11233.00
+
+2017/07/24 18:59:15 [A] fname:recordRoutine,start_time:2017-07-24 18:59:15
+
+2017/07/24 18:59:15 [I] 11233
+2017/07/24 18:59:15 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:15,ret:11233.00
+
+2017/07/24 18:59:20 [A] fname:recordRoutine,start_time:2017-07-24 18:59:20
+
+2017/07/24 18:59:20 [I] 11233
+2017/07/24 18:59:20 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:20,ret:11233.00
+
+2017/07/24 18:59:25 [A] fname:recordRoutine,start_time:2017-07-24 18:59:25
+
+2017/07/24 18:59:25 [I] 11233
+2017/07/24 18:59:25 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:25,ret:11233.00
+
+2017/07/24 18:59:30 [A] fname:recordRoutine,start_time:2017-07-24 18:59:30
+
+2017/07/24 18:59:30 [I] 11233
+2017/07/24 18:59:30 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:30,ret:11233.00
+
+2017/07/24 18:59:35 [A] fname:recordRoutine,start_time:2017-07-24 18:59:35
+
+2017/07/24 18:59:35 [I] 11233
+2017/07/24 18:59:35 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:35,ret:11233.00
+
+2017/07/24 18:59:40 [A] fname:recordRoutine,start_time:2017-07-24 18:59:40
+
+2017/07/24 18:59:40 [I] 11233
+2017/07/24 18:59:40 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:40,ret:11233.00
+
+2017/07/24 18:59:45 [A] fname:recordRoutine,start_time:2017-07-24 18:59:45
+
+2017/07/24 18:59:45 [I] 11233
+2017/07/24 18:59:45 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:45,ret:11233.00
+
+2017/07/24 18:59:50 [A] fname:recordRoutine,start_time:2017-07-24 18:59:50
+
+2017/07/24 18:59:50 [I] 11235
+2017/07/24 18:59:50 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:50,ret:11235.00
+
+2017/07/24 18:59:55 [A] fname:recordRoutine,start_time:2017-07-24 18:59:55
+
+2017/07/24 18:59:55 [I] 11233
+2017/07/24 18:59:55 [A] fanme:recordRoutine,end_time:2017-07-24 18:59:55,ret:11233.00
+
+2017/07/24 19:00:00 [A] fname:recordRoutine,start_time:2017-07-24 19:00:00
+
+2017/07/24 19:00:00 [I] 11233
+2017/07/24 19:00:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:00,ret:11233.00
+
+2017/07/24 19:00:05 [A] fname:recordRoutine,start_time:2017-07-24 19:00:05
+
+2017/07/24 19:00:05 [I] 11235
+2017/07/24 19:00:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:05,ret:11235.00
+
+2017/07/24 19:00:10 [A] fname:recordRoutine,start_time:2017-07-24 19:00:10
+
+2017/07/24 19:00:10 [I] 11233
+2017/07/24 19:00:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:10,ret:11233.00
+
+2017/07/24 19:00:15 [A] fname:recordRoutine,start_time:2017-07-24 19:00:15
+
+2017/07/24 19:00:15 [I] 11233
+2017/07/24 19:00:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:15,ret:11233.00
+
+2017/07/24 19:00:20 [A] fname:recordRoutine,start_time:2017-07-24 19:00:20
+
+2017/07/24 19:00:20 [I] 11233
+2017/07/24 19:00:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:20,ret:11233.00
+
+2017/07/24 19:00:25 [A] fname:recordRoutine,start_time:2017-07-24 19:00:25
+
+2017/07/24 19:00:25 [I] 11235
+2017/07/24 19:00:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:25,ret:11235.00
+
+2017/07/24 19:00:30 [A] fname:recordRoutine,start_time:2017-07-24 19:00:30
+
+2017/07/24 19:00:30 [I] 11235
+2017/07/24 19:00:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:30,ret:11235.00
+
+2017/07/24 19:00:35 [A] fname:recordRoutine,start_time:2017-07-24 19:00:35
+
+2017/07/24 19:00:35 [I] 11233
+2017/07/24 19:00:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:35,ret:11233.00
+
+2017/07/24 19:00:40 [A] fname:recordRoutine,start_time:2017-07-24 19:00:40
+
+2017/07/24 19:00:40 [I] 11233
+2017/07/24 19:00:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:40,ret:11233.00
+
+2017/07/24 19:00:45 [A] fname:recordRoutine,start_time:2017-07-24 19:00:45
+
+2017/07/24 19:00:45 [I] 11233
+2017/07/24 19:00:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:45,ret:11233.00
+
+2017/07/24 19:00:50 [A] fname:recordRoutine,start_time:2017-07-24 19:00:50
+
+2017/07/24 19:00:50 [I] 11233
+2017/07/24 19:00:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:50,ret:11233.00
+
+2017/07/24 19:00:55 [A] fname:recordRoutine,start_time:2017-07-24 19:00:55
+
+2017/07/24 19:00:55 [I] 11233
+2017/07/24 19:00:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:00:55,ret:11233.00
+
+2017/07/24 19:01:00 [A] fname:recordRoutine,start_time:2017-07-24 19:01:00
+
+2017/07/24 19:01:00 [I] 11233
+2017/07/24 19:01:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:00,ret:11233.00
+
+2017/07/24 19:01:05 [A] fname:recordRoutine,start_time:2017-07-24 19:01:05
+
+2017/07/24 19:01:05 [I] 11233
+2017/07/24 19:01:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:05,ret:11233.00
+
+2017/07/24 19:01:10 [A] fname:recordRoutine,start_time:2017-07-24 19:01:10
+
+2017/07/24 19:01:10 [I] 11233
+2017/07/24 19:01:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:10,ret:11233.00
+
+2017/07/24 19:01:15 [A] fname:recordRoutine,start_time:2017-07-24 19:01:15
+
+2017/07/24 19:01:15 [I] 11233
+2017/07/24 19:01:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:15,ret:11233.00
+
+2017/07/24 19:01:20 [A] fname:recordRoutine,start_time:2017-07-24 19:01:20
+
+2017/07/24 19:01:20 [I] 11233
+2017/07/24 19:01:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:20,ret:11233.00
+
+2017/07/24 19:01:25 [A] fname:recordRoutine,start_time:2017-07-24 19:01:25
+
+2017/07/24 19:01:25 [I] 11233
+2017/07/24 19:01:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:25,ret:11233.00
+
+2017/07/24 19:01:30 [A] fname:recordRoutine,start_time:2017-07-24 19:01:30
+
+2017/07/24 19:01:30 [I] 11233
+2017/07/24 19:01:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:30,ret:11233.00
+
+2017/07/24 19:01:35 [A] fname:recordRoutine,start_time:2017-07-24 19:01:35
+
+2017/07/24 19:01:35 [I] 11233
+2017/07/24 19:01:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:35,ret:11233.00
+
+2017/07/24 19:01:40 [A] fname:recordRoutine,start_time:2017-07-24 19:01:40
+
+2017/07/24 19:01:40 [I] 11233
+2017/07/24 19:01:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:40,ret:11233.00
+
+2017/07/24 19:01:45 [A] fname:recordRoutine,start_time:2017-07-24 19:01:45
+
+2017/07/24 19:01:45 [I] 11233
+2017/07/24 19:01:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:45,ret:11233.00
+
+2017/07/24 19:01:50 [A] fname:recordRoutine,start_time:2017-07-24 19:01:50
+
+2017/07/24 19:01:50 [I] 11233
+2017/07/24 19:01:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:50,ret:11233.00
+
+2017/07/24 19:01:55 [A] fname:recordRoutine,start_time:2017-07-24 19:01:55
+
+2017/07/24 19:01:55 [I] 11233
+2017/07/24 19:01:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:01:55,ret:11233.00
+
+2017/07/24 19:02:00 [A] fname:recordRoutine,start_time:2017-07-24 19:02:00
+
+2017/07/24 19:02:00 [I] 11233
+2017/07/24 19:02:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:00,ret:11233.00
+
+2017/07/24 19:02:05 [A] fname:recordRoutine,start_time:2017-07-24 19:02:05
+
+2017/07/24 19:02:05 [I] 11233
+2017/07/24 19:02:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:05,ret:11233.00
+
+2017/07/24 19:02:10 [A] fname:recordRoutine,start_time:2017-07-24 19:02:10
+
+2017/07/24 19:02:10 [I] 11233
+2017/07/24 19:02:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:10,ret:11233.00
+
+2017/07/24 19:02:15 [A] fname:recordRoutine,start_time:2017-07-24 19:02:15
+
+2017/07/24 19:02:15 [I] 11233
+2017/07/24 19:02:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:15,ret:11233.00
+
+2017/07/24 19:02:20 [A] fname:recordRoutine,start_time:2017-07-24 19:02:20
+
+2017/07/24 19:02:20 [I] 11233
+2017/07/24 19:02:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:20,ret:11233.00
+
+2017/07/24 19:02:25 [A] fname:recordRoutine,start_time:2017-07-24 19:02:25
+
+2017/07/24 19:02:25 [I] 11233
+2017/07/24 19:02:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:25,ret:11233.00
+
+2017/07/24 19:02:30 [A] fname:recordRoutine,start_time:2017-07-24 19:02:30
+
+2017/07/24 19:02:30 [I] 11233
+2017/07/24 19:02:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:30,ret:11233.00
+
+2017/07/24 19:02:35 [A] fname:recordRoutine,start_time:2017-07-24 19:02:35
+
+2017/07/24 19:02:35 [I] 11233
+2017/07/24 19:02:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:35,ret:11233.00
+
+2017/07/24 19:02:40 [A] fname:recordRoutine,start_time:2017-07-24 19:02:40
+
+2017/07/24 19:02:40 [I] 11233
+2017/07/24 19:02:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:40,ret:11233.00
+
+2017/07/24 19:02:45 [A] fname:recordRoutine,start_time:2017-07-24 19:02:45
+
+2017/07/24 19:02:45 [I] 11233
+2017/07/24 19:02:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:45,ret:11233.00
+
+2017/07/24 19:02:50 [A] fname:recordRoutine,start_time:2017-07-24 19:02:50
+
+2017/07/24 19:02:50 [I] 11233
+2017/07/24 19:02:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:50,ret:11233.00
+
+2017/07/24 19:02:55 [A] fname:recordRoutine,start_time:2017-07-24 19:02:55
+
+2017/07/24 19:02:55 [I] 11233
+2017/07/24 19:02:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:02:55,ret:11233.00
+
+2017/07/24 19:03:00 [A] fname:recordRoutine,start_time:2017-07-24 19:03:00
+
+2017/07/24 19:03:00 [I] 11233
+2017/07/24 19:03:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:00,ret:11233.00
+
+2017/07/24 19:03:05 [A] fname:recordRoutine,start_time:2017-07-24 19:03:05
+
+2017/07/24 19:03:05 [I] 11233
+2017/07/24 19:03:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:05,ret:11233.00
+
+2017/07/24 19:03:10 [A] fname:recordRoutine,start_time:2017-07-24 19:03:10
+
+2017/07/24 19:03:10 [I] 11233
+2017/07/24 19:03:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:10,ret:11233.00
+
+2017/07/24 19:03:15 [A] fname:recordRoutine,start_time:2017-07-24 19:03:15
+
+2017/07/24 19:03:15 [I] 11233
+2017/07/24 19:03:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:15,ret:11233.00
+
+2017/07/24 19:03:20 [A] fname:recordRoutine,start_time:2017-07-24 19:03:20
+
+2017/07/24 19:03:20 [I] 11233
+2017/07/24 19:03:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:20,ret:11233.00
+
+2017/07/24 19:03:25 [A] fname:recordRoutine,start_time:2017-07-24 19:03:25
+
+2017/07/24 19:03:25 [I] 11233
+2017/07/24 19:03:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:25,ret:11233.00
+
+2017/07/24 19:03:30 [A] fname:recordRoutine,start_time:2017-07-24 19:03:30
+
+2017/07/24 19:03:30 [I] 11233
+2017/07/24 19:03:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:30,ret:11233.00
+
+2017/07/24 19:03:35 [A] fname:recordRoutine,start_time:2017-07-24 19:03:35
+
+2017/07/24 19:03:35 [I] 11233
+2017/07/24 19:03:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:35,ret:11233.00
+
+2017/07/24 19:03:40 [A] fname:recordRoutine,start_time:2017-07-24 19:03:40
+
+2017/07/24 19:03:40 [I] 11233
+2017/07/24 19:03:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:40,ret:11233.00
+
+2017/07/24 19:03:45 [A] fname:recordRoutine,start_time:2017-07-24 19:03:45
+
+2017/07/24 19:03:45 [I] 11233
+2017/07/24 19:03:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:45,ret:11233.00
+
+2017/07/24 19:03:50 [A] fname:recordRoutine,start_time:2017-07-24 19:03:50
+
+2017/07/24 19:03:50 [I] 11233
+2017/07/24 19:03:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:50,ret:11233.00
+
+2017/07/24 19:03:55 [A] fname:recordRoutine,start_time:2017-07-24 19:03:55
+
+2017/07/24 19:03:55 [I] 11233
+2017/07/24 19:03:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:03:55,ret:11233.00
+
+2017/07/24 19:04:00 [A] fname:recordRoutine,start_time:2017-07-24 19:04:00
+
+2017/07/24 19:04:00 [I] 11233
+2017/07/24 19:04:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:00,ret:11233.00
+
+2017/07/24 19:04:05 [A] fname:recordRoutine,start_time:2017-07-24 19:04:05
+
+2017/07/24 19:04:05 [I] 11233
+2017/07/24 19:04:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:05,ret:11233.00
+
+2017/07/24 19:04:10 [A] fname:recordRoutine,start_time:2017-07-24 19:04:10
+
+2017/07/24 19:04:10 [I] 11233
+2017/07/24 19:04:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:10,ret:11233.00
+
+2017/07/24 19:04:15 [A] fname:recordRoutine,start_time:2017-07-24 19:04:15
+
+2017/07/24 19:04:15 [I] 11233
+2017/07/24 19:04:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:15,ret:11233.00
+
+2017/07/24 19:04:20 [A] fname:recordRoutine,start_time:2017-07-24 19:04:20
+
+2017/07/24 19:04:20 [I] 11233
+2017/07/24 19:04:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:20,ret:11233.00
+
+2017/07/24 19:04:25 [A] fname:recordRoutine,start_time:2017-07-24 19:04:25
+
+2017/07/24 19:04:25 [I] 11233
+2017/07/24 19:04:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:25,ret:11233.00
+
+2017/07/24 19:04:30 [A] fname:recordRoutine,start_time:2017-07-24 19:04:30
+
+2017/07/24 19:04:30 [I] 11233
+2017/07/24 19:04:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:30,ret:11233.00
+
+2017/07/24 19:04:35 [A] fname:recordRoutine,start_time:2017-07-24 19:04:35
+
+2017/07/24 19:04:35 [I] 11233
+2017/07/24 19:04:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:35,ret:11233.00
+
+2017/07/24 19:04:40 [A] fname:recordRoutine,start_time:2017-07-24 19:04:40
+
+2017/07/24 19:04:40 [I] 11233
+2017/07/24 19:04:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:40,ret:11233.00
+
+2017/07/24 19:04:45 [A] fname:recordRoutine,start_time:2017-07-24 19:04:45
+
+2017/07/24 19:04:45 [I] 11233
+2017/07/24 19:04:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:45,ret:11233.00
+
+2017/07/24 19:04:50 [A] fname:recordRoutine,start_time:2017-07-24 19:04:50
+
+2017/07/24 19:04:50 [I] 11244
+2017/07/24 19:04:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:50,ret:11244.00
+
+2017/07/24 19:04:55 [A] fname:recordRoutine,start_time:2017-07-24 19:04:55
+
+2017/07/24 19:04:55 [I] 11233
+2017/07/24 19:04:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:04:55,ret:11233.00
+
+2017/07/24 19:05:00 [A] fname:recordRoutine,start_time:2017-07-24 19:05:00
+
+2017/07/24 19:05:00 [I] 11233
+2017/07/24 19:05:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:00,ret:11233.00
+
+2017/07/24 19:05:05 [A] fname:recordRoutine,start_time:2017-07-24 19:05:05
+
+2017/07/24 19:05:05 [I] 11233
+2017/07/24 19:05:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:05,ret:11233.00
+
+2017/07/24 19:05:10 [A] fname:recordRoutine,start_time:2017-07-24 19:05:10
+
+2017/07/24 19:05:10 [I] 11233
+2017/07/24 19:05:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:10,ret:11233.00
+
+2017/07/24 19:05:15 [A] fname:recordRoutine,start_time:2017-07-24 19:05:15
+
+2017/07/24 19:05:15 [I] 11233
+2017/07/24 19:05:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:15,ret:11233.00
+
+2017/07/24 19:05:20 [A] fname:recordRoutine,start_time:2017-07-24 19:05:20
+
+2017/07/24 19:05:20 [I] 11233
+2017/07/24 19:05:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:20,ret:11233.00
+
+2017/07/24 19:05:25 [A] fname:recordRoutine,start_time:2017-07-24 19:05:25
+
+2017/07/24 19:05:25 [I] 11233
+2017/07/24 19:05:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:25,ret:11233.00
+
+2017/07/24 19:05:30 [A] fname:recordRoutine,start_time:2017-07-24 19:05:30
+
+2017/07/24 19:05:30 [I] 11233
+2017/07/24 19:05:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:30,ret:11233.00
+
+2017/07/24 19:05:35 [A] fname:recordRoutine,start_time:2017-07-24 19:05:35
+
+2017/07/24 19:05:35 [I] 11233
+2017/07/24 19:05:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:35,ret:11233.00
+
+2017/07/24 19:05:40 [A] fname:recordRoutine,start_time:2017-07-24 19:05:40
+
+2017/07/24 19:05:40 [I] 11233
+2017/07/24 19:05:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:40,ret:11233.00
+
+2017/07/24 19:05:45 [A] fname:recordRoutine,start_time:2017-07-24 19:05:45
+
+2017/07/24 19:05:45 [I] 11233
+2017/07/24 19:05:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:45,ret:11233.00
+
+2017/07/24 19:05:50 [A] fname:recordRoutine,start_time:2017-07-24 19:05:50
+
+2017/07/24 19:05:50 [I] 11233
+2017/07/24 19:05:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:50,ret:11233.00
+
+2017/07/24 19:05:55 [A] fname:recordRoutine,start_time:2017-07-24 19:05:55
+
+2017/07/24 19:05:55 [I] 11233
+2017/07/24 19:05:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:05:55,ret:11233.00
+
+2017/07/24 19:06:00 [A] fname:recordRoutine,start_time:2017-07-24 19:06:00
+
+2017/07/24 19:06:00 [I] 11233
+2017/07/24 19:06:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:00,ret:11233.00
+
+2017/07/24 19:06:05 [A] fname:recordRoutine,start_time:2017-07-24 19:06:05
+
+2017/07/24 19:06:05 [I] 11233
+2017/07/24 19:06:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:05,ret:11233.00
+
+2017/07/24 19:06:10 [A] fname:recordRoutine,start_time:2017-07-24 19:06:10
+
+2017/07/24 19:06:10 [I] 11233
+2017/07/24 19:06:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:10,ret:11233.00
+
+2017/07/24 19:06:15 [A] fname:recordRoutine,start_time:2017-07-24 19:06:15
+
+2017/07/24 19:06:15 [I] 11233
+2017/07/24 19:06:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:15,ret:11233.00
+
+2017/07/24 19:06:20 [A] fname:recordRoutine,start_time:2017-07-24 19:06:20
+
+2017/07/24 19:06:20 [I] 11233
+2017/07/24 19:06:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:20,ret:11233.00
+
+2017/07/24 19:06:25 [A] fname:recordRoutine,start_time:2017-07-24 19:06:25
+
+2017/07/24 19:06:25 [I] 11233
+2017/07/24 19:06:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:25,ret:11233.00
+
+2017/07/24 19:06:30 [A] fname:recordRoutine,start_time:2017-07-24 19:06:30
+
+2017/07/24 19:06:30 [I] 11233
+2017/07/24 19:06:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:30,ret:11233.00
+
+2017/07/24 19:06:35 [A] fname:recordRoutine,start_time:2017-07-24 19:06:35
+
+2017/07/24 19:06:35 [I] 11233
+2017/07/24 19:06:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:35,ret:11233.00
+
+2017/07/24 19:06:40 [A] fname:recordRoutine,start_time:2017-07-24 19:06:40
+
+2017/07/24 19:06:40 [I] 11233
+2017/07/24 19:06:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:40,ret:11233.00
+
+2017/07/24 19:06:45 [A] fname:recordRoutine,start_time:2017-07-24 19:06:45
+
+2017/07/24 19:06:45 [I] 11233
+2017/07/24 19:06:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:45,ret:11233.00
+
+2017/07/24 19:06:50 [A] fname:recordRoutine,start_time:2017-07-24 19:06:50
+
+2017/07/24 19:06:50 [I] 11233
+2017/07/24 19:06:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:50,ret:11233.00
+
+2017/07/24 19:06:55 [A] fname:recordRoutine,start_time:2017-07-24 19:06:55
+
+2017/07/24 19:06:55 [I] 11233
+2017/07/24 19:06:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:06:55,ret:11233.00
+
+2017/07/24 19:07:00 [A] fname:recordRoutine,start_time:2017-07-24 19:07:00
+
+2017/07/24 19:07:00 [I] 11233
+2017/07/24 19:07:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:00,ret:11233.00
+
+2017/07/24 19:07:05 [A] fname:recordRoutine,start_time:2017-07-24 19:07:05
+
+2017/07/24 19:07:05 [I] 11233
+2017/07/24 19:07:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:05,ret:11233.00
+
+2017/07/24 19:07:10 [A] fname:recordRoutine,start_time:2017-07-24 19:07:10
+
+2017/07/24 19:07:10 [I] 11233
+2017/07/24 19:07:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:10,ret:11233.00
+
+2017/07/24 19:07:15 [A] fname:recordRoutine,start_time:2017-07-24 19:07:15
+
+2017/07/24 19:07:15 [I] 11233
+2017/07/24 19:07:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:15,ret:11233.00
+
+2017/07/24 19:07:20 [A] fname:recordRoutine,start_time:2017-07-24 19:07:20
+
+2017/07/24 19:07:20 [I] 11233
+2017/07/24 19:07:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:20,ret:11233.00
+
+2017/07/24 19:07:25 [A] fname:recordRoutine,start_time:2017-07-24 19:07:25
+
+2017/07/24 19:07:25 [I] 11233
+2017/07/24 19:07:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:25,ret:11233.00
+
+2017/07/24 19:07:30 [A] fname:recordRoutine,start_time:2017-07-24 19:07:30
+
+2017/07/24 19:07:30 [I] 11233
+2017/07/24 19:07:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:30,ret:11233.00
+
+2017/07/24 19:07:35 [A] fname:recordRoutine,start_time:2017-07-24 19:07:35
+
+2017/07/24 19:07:35 [I] 11233
+2017/07/24 19:07:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:35,ret:11233.00
+
+2017/07/24 19:07:40 [A] fname:recordRoutine,start_time:2017-07-24 19:07:40
+
+2017/07/24 19:07:40 [I] 11233
+2017/07/24 19:07:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:40,ret:11233.00
+
+2017/07/24 19:07:45 [A] fname:recordRoutine,start_time:2017-07-24 19:07:45
+
+2017/07/24 19:07:45 [I] 11233
+2017/07/24 19:07:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:45,ret:11233.00
+
+2017/07/24 19:07:50 [A] fname:recordRoutine,start_time:2017-07-24 19:07:50
+
+2017/07/24 19:07:50 [I] 11233
+2017/07/24 19:07:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:50,ret:11233.00
+
+2017/07/24 19:07:55 [A] fname:recordRoutine,start_time:2017-07-24 19:07:55
+
+2017/07/24 19:07:55 [I] 11233
+2017/07/24 19:07:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:07:55,ret:11233.00
+
+2017/07/24 19:08:00 [A] fname:recordRoutine,start_time:2017-07-24 19:08:00
+
+2017/07/24 19:08:00 [I] 11233
+2017/07/24 19:08:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:00,ret:11233.00
+
+2017/07/24 19:08:05 [A] fname:recordRoutine,start_time:2017-07-24 19:08:05
+
+2017/07/24 19:08:05 [I] 11233
+2017/07/24 19:08:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:05,ret:11233.00
+
+2017/07/24 19:08:10 [A] fname:recordRoutine,start_time:2017-07-24 19:08:10
+
+2017/07/24 19:08:10 [I] 11233
+2017/07/24 19:08:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:10,ret:11233.00
+
+2017/07/24 19:08:15 [A] fname:recordRoutine,start_time:2017-07-24 19:08:15
+
+2017/07/24 19:08:15 [I] 11233
+2017/07/24 19:08:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:15,ret:11233.00
+
+2017/07/24 19:08:20 [A] fname:recordRoutine,start_time:2017-07-24 19:08:20
+
+2017/07/24 19:08:20 [I] 11234
+2017/07/24 19:08:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:20,ret:11234.00
+
+2017/07/24 19:08:25 [A] fname:recordRoutine,start_time:2017-07-24 19:08:25
+
+2017/07/24 19:08:25 [I] 11234
+2017/07/24 19:08:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:25,ret:11234.00
+
+2017/07/24 19:08:30 [A] fname:recordRoutine,start_time:2017-07-24 19:08:30
+
+2017/07/24 19:08:30 [I] 11234
+2017/07/24 19:08:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:30,ret:11234.00
+
+2017/07/24 19:08:35 [A] fname:recordRoutine,start_time:2017-07-24 19:08:35
+
+2017/07/24 19:08:35 [I] 11234
+2017/07/24 19:08:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:35,ret:11234.00
+
+2017/07/24 19:08:40 [A] fname:recordRoutine,start_time:2017-07-24 19:08:40
+
+2017/07/24 19:08:40 [I] 11234
+2017/07/24 19:08:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:40,ret:11234.00
+
+2017/07/24 19:08:45 [A] fname:recordRoutine,start_time:2017-07-24 19:08:45
+
+2017/07/24 19:08:45 [I] 11234
+2017/07/24 19:08:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:45,ret:11234.00
+
+2017/07/24 19:08:50 [A] fname:recordRoutine,start_time:2017-07-24 19:08:50
+
+2017/07/24 19:08:50 [I] 11234
+2017/07/24 19:08:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:50,ret:11234.00
+
+2017/07/24 19:08:55 [A] fname:recordRoutine,start_time:2017-07-24 19:08:55
+
+2017/07/24 19:08:55 [I] 11234
+2017/07/24 19:08:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:08:55,ret:11234.00
+
+2017/07/24 19:09:00 [A] fname:recordRoutine,start_time:2017-07-24 19:09:00
+
+2017/07/24 19:09:00 [I] 11234
+2017/07/24 19:09:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:00,ret:11234.00
+
+2017/07/24 19:09:05 [A] fname:recordRoutine,start_time:2017-07-24 19:09:05
+
+2017/07/24 19:09:05 [I] 11234
+2017/07/24 19:09:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:05,ret:11234.00
+
+2017/07/24 19:09:10 [A] fname:recordRoutine,start_time:2017-07-24 19:09:10
+
+2017/07/24 19:09:10 [I] 11233
+2017/07/24 19:09:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:10,ret:11233.00
+
+2017/07/24 19:09:15 [A] fname:recordRoutine,start_time:2017-07-24 19:09:15
+
+2017/07/24 19:09:15 [I] 11233
+2017/07/24 19:09:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:15,ret:11233.00
+
+2017/07/24 19:09:20 [A] fname:recordRoutine,start_time:2017-07-24 19:09:20
+
+2017/07/24 19:09:20 [I] 11233
+2017/07/24 19:09:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:20,ret:11233.00
+
+2017/07/24 19:09:25 [A] fname:recordRoutine,start_time:2017-07-24 19:09:25
+
+2017/07/24 19:09:25 [I] 11233
+2017/07/24 19:09:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:25,ret:11233.00
+
+2017/07/24 19:09:30 [A] fname:recordRoutine,start_time:2017-07-24 19:09:30
+
+2017/07/24 19:09:30 [I] 11233
+2017/07/24 19:09:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:30,ret:11233.00
+
+2017/07/24 19:09:35 [A] fname:recordRoutine,start_time:2017-07-24 19:09:35
+
+2017/07/24 19:09:35 [I] 11233
+2017/07/24 19:09:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:35,ret:11233.00
+
+2017/07/24 19:09:40 [A] fname:recordRoutine,start_time:2017-07-24 19:09:40
+
+2017/07/24 19:09:40 [I] 11233
+2017/07/24 19:09:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:40,ret:11233.00
+
+2017/07/24 19:09:45 [A] fname:recordRoutine,start_time:2017-07-24 19:09:45
+
+2017/07/24 19:09:45 [I] 11233
+2017/07/24 19:09:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:45,ret:11233.00
+
+2017/07/24 19:09:50 [A] fname:recordRoutine,start_time:2017-07-24 19:09:50
+
+2017/07/24 19:09:50 [I] 11241
+2017/07/24 19:09:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:50,ret:11241.00
+
+2017/07/24 19:09:55 [A] fname:recordRoutine,start_time:2017-07-24 19:09:55
+
+2017/07/24 19:09:55 [I] 11233
+2017/07/24 19:09:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:09:55,ret:11233.00
+
+2017/07/24 19:10:00 [A] fname:recordRoutine,start_time:2017-07-24 19:10:00
+
+2017/07/24 19:10:01 [I] 11234
+2017/07/24 19:10:01 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:01,ret:11234.00
+
+2017/07/24 19:10:05 [A] fname:recordRoutine,start_time:2017-07-24 19:10:05
+
+2017/07/24 19:10:07 [I] 11233
+2017/07/24 19:10:07 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:07,ret:11233.00
+
+2017/07/24 19:10:10 [A] fname:recordRoutine,start_time:2017-07-24 19:10:10
+
+2017/07/24 19:10:10 [I] 11233
+2017/07/24 19:10:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:10,ret:11233.00
+
+2017/07/24 19:10:15 [A] fname:recordRoutine,start_time:2017-07-24 19:10:15
+
+2017/07/24 19:10:17 [I] 11233
+2017/07/24 19:10:17 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:17,ret:11233.00
+
+2017/07/24 19:10:20 [A] fname:recordRoutine,start_time:2017-07-24 19:10:20
+
+2017/07/24 19:10:20 [I] 11233
+2017/07/24 19:10:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:20,ret:11233.00
+
+2017/07/24 19:10:25 [A] fname:recordRoutine,start_time:2017-07-24 19:10:25
+
+2017/07/24 19:10:25 [I] 11233
+2017/07/24 19:10:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:25,ret:11233.00
+
+2017/07/24 19:10:30 [A] fname:recordRoutine,start_time:2017-07-24 19:10:30
+
+2017/07/24 19:10:30 [I] 11233
+2017/07/24 19:10:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:30,ret:11233.00
+
+2017/07/24 19:10:35 [A] fname:recordRoutine,start_time:2017-07-24 19:10:35
+
+2017/07/24 19:10:35 [I] 11234
+2017/07/24 19:10:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:35,ret:11234.00
+
+2017/07/24 19:10:40 [A] fname:recordRoutine,start_time:2017-07-24 19:10:40
+
+2017/07/24 19:10:40 [I] 11234
+2017/07/24 19:10:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:40,ret:11234.00
+
+2017/07/24 19:10:45 [A] fname:recordRoutine,start_time:2017-07-24 19:10:45
+
+2017/07/24 19:10:45 [I] 11234
+2017/07/24 19:10:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:45,ret:11234.00
+
+2017/07/24 19:10:50 [A] fname:recordRoutine,start_time:2017-07-24 19:10:50
+
+2017/07/24 19:10:50 [I] 11234
+2017/07/24 19:10:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:50,ret:11234.00
+
+2017/07/24 19:10:55 [A] fname:recordRoutine,start_time:2017-07-24 19:10:55
+
+2017/07/24 19:10:55 [I] 11234
+2017/07/24 19:10:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:10:55,ret:11234.00
+
+2017/07/24 19:11:00 [A] fname:recordRoutine,start_time:2017-07-24 19:11:00
+
+2017/07/24 19:11:00 [I] 11234
+2017/07/24 19:11:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:00,ret:11234.00
+
+2017/07/24 19:11:05 [A] fname:recordRoutine,start_time:2017-07-24 19:11:05
+
+2017/07/24 19:11:05 [I] 11234
+2017/07/24 19:11:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:05,ret:11234.00
+
+2017/07/24 19:11:10 [A] fname:recordRoutine,start_time:2017-07-24 19:11:10
+
+2017/07/24 19:11:10 [I] 11234
+2017/07/24 19:11:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:10,ret:11234.00
+
+2017/07/24 19:11:15 [A] fname:recordRoutine,start_time:2017-07-24 19:11:15
+
+2017/07/24 19:11:15 [I] 11234
+2017/07/24 19:11:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:15,ret:11234.00
+
+2017/07/24 19:11:20 [A] fname:recordRoutine,start_time:2017-07-24 19:11:20
+
+2017/07/24 19:11:20 [I] 11234
+2017/07/24 19:11:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:20,ret:11234.00
+
+2017/07/24 19:11:25 [A] fname:recordRoutine,start_time:2017-07-24 19:11:25
+
+2017/07/24 19:11:25 [I] 11233
+2017/07/24 19:11:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:25,ret:11233.00
+
+2017/07/24 19:11:30 [A] fname:recordRoutine,start_time:2017-07-24 19:11:30
+
+2017/07/24 19:11:30 [I] 11233
+2017/07/24 19:11:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:30,ret:11233.00
+
+2017/07/24 19:11:35 [A] fname:recordRoutine,start_time:2017-07-24 19:11:35
+
+2017/07/24 19:11:35 [I] 11233
+2017/07/24 19:11:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:35,ret:11233.00
+
+2017/07/24 19:11:40 [A] fname:recordRoutine,start_time:2017-07-24 19:11:40
+
+2017/07/24 19:11:40 [I] 11233
+2017/07/24 19:11:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:40,ret:11233.00
+
+2017/07/24 19:11:45 [A] fname:recordRoutine,start_time:2017-07-24 19:11:45
+
+2017/07/24 19:11:45 [I] 11233
+2017/07/24 19:11:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:45,ret:11233.00
+
+2017/07/24 19:11:50 [A] fname:recordRoutine,start_time:2017-07-24 19:11:50
+
+2017/07/24 19:11:50 [I] 11233
+2017/07/24 19:11:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:50,ret:11233.00
+
+2017/07/24 19:11:55 [A] fname:recordRoutine,start_time:2017-07-24 19:11:55
+
+2017/07/24 19:11:55 [I] 11233
+2017/07/24 19:11:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:11:55,ret:11233.00
+
+2017/07/24 19:12:00 [A] fname:recordRoutine,start_time:2017-07-24 19:12:00
+
+2017/07/24 19:12:00 [I] 11233
+2017/07/24 19:12:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:00,ret:11233.00
+
+2017/07/24 19:12:05 [A] fname:recordRoutine,start_time:2017-07-24 19:12:05
+
+2017/07/24 19:12:05 [I] 11233
+2017/07/24 19:12:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:05,ret:11233.00
+
+2017/07/24 19:12:10 [A] fname:recordRoutine,start_time:2017-07-24 19:12:10
+
+2017/07/24 19:12:10 [I] 11233
+2017/07/24 19:12:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:10,ret:11233.00
+
+2017/07/24 19:12:15 [A] fname:recordRoutine,start_time:2017-07-24 19:12:15
+
+2017/07/24 19:12:15 [I] 11233
+2017/07/24 19:12:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:15,ret:11233.00
+
+2017/07/24 19:12:20 [A] fname:recordRoutine,start_time:2017-07-24 19:12:20
+
+2017/07/24 19:12:20 [I] 11233
+2017/07/24 19:12:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:20,ret:11233.00
+
+2017/07/24 19:12:25 [A] fname:recordRoutine,start_time:2017-07-24 19:12:25
+
+2017/07/24 19:12:25 [I] 11233
+2017/07/24 19:12:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:25,ret:11233.00
+
+2017/07/24 19:12:30 [A] fname:recordRoutine,start_time:2017-07-24 19:12:30
+
+2017/07/24 19:12:30 [I] 11233
+2017/07/24 19:12:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:30,ret:11233.00
+
+2017/07/24 19:12:35 [A] fname:recordRoutine,start_time:2017-07-24 19:12:35
+
+2017/07/24 19:12:35 [I] 11233
+2017/07/24 19:12:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:35,ret:11233.00
+
+2017/07/24 19:12:40 [A] fname:recordRoutine,start_time:2017-07-24 19:12:40
+
+2017/07/24 19:12:40 [I] 11233
+2017/07/24 19:12:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:40,ret:11233.00
+
+2017/07/24 19:12:45 [A] fname:recordRoutine,start_time:2017-07-24 19:12:45
+
+2017/07/24 19:12:45 [I] 11233
+2017/07/24 19:12:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:45,ret:11233.00
+
+2017/07/24 19:12:50 [A] fname:recordRoutine,start_time:2017-07-24 19:12:50
+
+2017/07/24 19:12:50 [I] 11233
+2017/07/24 19:12:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:50,ret:11233.00
+
+2017/07/24 19:12:55 [A] fname:recordRoutine,start_time:2017-07-24 19:12:55
+
+2017/07/24 19:12:55 [I] 11233
+2017/07/24 19:12:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:12:55,ret:11233.00
+
+2017/07/24 19:13:00 [A] fname:recordRoutine,start_time:2017-07-24 19:13:00
+
+2017/07/24 19:13:00 [I] 11233
+2017/07/24 19:13:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:00,ret:11233.00
+
+2017/07/24 19:13:05 [A] fname:recordRoutine,start_time:2017-07-24 19:13:05
+
+2017/07/24 19:13:05 [I] 11233
+2017/07/24 19:13:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:05,ret:11233.00
+
+2017/07/24 19:13:10 [A] fname:recordRoutine,start_time:2017-07-24 19:13:10
+
+2017/07/24 19:13:10 [I] 11233
+2017/07/24 19:13:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:10,ret:11233.00
+
+2017/07/24 19:13:15 [A] fname:recordRoutine,start_time:2017-07-24 19:13:15
+
+2017/07/24 19:13:15 [I] 11233
+2017/07/24 19:13:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:15,ret:11233.00
+
+2017/07/24 19:13:20 [A] fname:recordRoutine,start_time:2017-07-24 19:13:20
+
+2017/07/24 19:13:20 [I] 11233
+2017/07/24 19:13:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:20,ret:11233.00
+
+2017/07/24 19:13:25 [A] fname:recordRoutine,start_time:2017-07-24 19:13:25
+
+2017/07/24 19:13:26 [I] 11233
+2017/07/24 19:13:26 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:26,ret:11233.00
+
+2017/07/24 19:13:30 [A] fname:recordRoutine,start_time:2017-07-24 19:13:30
+
+2017/07/24 19:13:30 [I] 11233
+2017/07/24 19:13:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:30,ret:11233.00
+
+2017/07/24 19:13:35 [A] fname:recordRoutine,start_time:2017-07-24 19:13:35
+
+2017/07/24 19:13:35 [I] 11233
+2017/07/24 19:13:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:35,ret:11233.00
+
+2017/07/24 19:13:40 [A] fname:recordRoutine,start_time:2017-07-24 19:13:40
+
+2017/07/24 19:13:40 [I] 11233
+2017/07/24 19:13:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:40,ret:11233.00
+
+2017/07/24 19:13:45 [A] fname:recordRoutine,start_time:2017-07-24 19:13:45
+
+2017/07/24 19:13:45 [I] 11233
+2017/07/24 19:13:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:45,ret:11233.00
+
+2017/07/24 19:13:50 [A] fname:recordRoutine,start_time:2017-07-24 19:13:50
+
+2017/07/24 19:13:50 [I] 11233
+2017/07/24 19:13:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:50,ret:11233.00
+
+2017/07/24 19:13:55 [A] fname:recordRoutine,start_time:2017-07-24 19:13:55
+
+2017/07/24 19:13:55 [I] 11233
+2017/07/24 19:13:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:13:55,ret:11233.00
+
+2017/07/24 19:14:00 [A] fname:recordRoutine,start_time:2017-07-24 19:14:00
+
+2017/07/24 19:14:00 [I] 11233
+2017/07/24 19:14:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:00,ret:11233.00
+
+2017/07/24 19:14:05 [A] fname:recordRoutine,start_time:2017-07-24 19:14:05
+
+2017/07/24 19:14:05 [I] 11233
+2017/07/24 19:14:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:05,ret:11233.00
+
+2017/07/24 19:14:10 [A] fname:recordRoutine,start_time:2017-07-24 19:14:10
+
+2017/07/24 19:14:10 [I] 11233
+2017/07/24 19:14:10 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:10,ret:11233.00
+
+2017/07/24 19:14:15 [A] fname:recordRoutine,start_time:2017-07-24 19:14:15
+
+2017/07/24 19:14:15 [I] 11233
+2017/07/24 19:14:15 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:15,ret:11233.00
+
+2017/07/24 19:14:20 [A] fname:recordRoutine,start_time:2017-07-24 19:14:20
+
+2017/07/24 19:14:20 [I] 11233
+2017/07/24 19:14:20 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:20,ret:11233.00
+
+2017/07/24 19:14:25 [A] fname:recordRoutine,start_time:2017-07-24 19:14:25
+
+2017/07/24 19:14:25 [I] 11233
+2017/07/24 19:14:25 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:25,ret:11233.00
+
+2017/07/24 19:14:30 [A] fname:recordRoutine,start_time:2017-07-24 19:14:30
+
+2017/07/24 19:14:30 [I] 11233
+2017/07/24 19:14:30 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:30,ret:11233.00
+
+2017/07/24 19:14:35 [A] fname:recordRoutine,start_time:2017-07-24 19:14:35
+
+2017/07/24 19:14:35 [I] 11233
+2017/07/24 19:14:35 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:35,ret:11233.00
+
+2017/07/24 19:14:40 [A] fname:recordRoutine,start_time:2017-07-24 19:14:40
+
+2017/07/24 19:14:40 [I] 11233
+2017/07/24 19:14:40 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:40,ret:11233.00
+
+2017/07/24 19:14:45 [A] fname:recordRoutine,start_time:2017-07-24 19:14:45
+
+2017/07/24 19:14:45 [I] 11233
+2017/07/24 19:14:45 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:45,ret:11233.00
+
+2017/07/24 19:14:50 [A] fname:recordRoutine,start_time:2017-07-24 19:14:50
+
+2017/07/24 19:14:50 [I] 11242
+2017/07/24 19:14:50 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:50,ret:11242.00
+
+2017/07/24 19:14:55 [A] fname:recordRoutine,start_time:2017-07-24 19:14:55
+
+2017/07/24 19:14:55 [I] 11233
+2017/07/24 19:14:55 [A] fanme:recordRoutine,end_time:2017-07-24 19:14:55,ret:11233.00
+
+2017/07/24 19:15:00 [A] fname:recordRoutine,start_time:2017-07-24 19:15:00
+
+2017/07/24 19:15:00 [I] 11233
+2017/07/24 19:15:00 [A] fanme:recordRoutine,end_time:2017-07-24 19:15:00,ret:11233.00
+
+2017/07/24 19:15:05 [A] fname:recordRoutine,start_time:2017-07-24 19:15:05
+
+2017/07/24 19:15:05 [I] 11233
+2017/07/24 19:15:05 [A] fanme:recordRoutine,end_time:2017-07-24 19:15:05,ret:11233.00
+
+2017/08/01 15:34:52 [A] fname:recordRoutine,start_time:2017-08-01 15:34:52
+
+2017/08/01 15:34:52 [I] 112
+2017/08/01 15:34:52 [A] fanme:recordRoutine,end_time:2017-08-01 15:34:52,ret:112.00
+
+2017/08/01 15:34:57 [A] fname:recordRoutine,start_time:2017-08-01 15:34:57
+
+2017/08/01 15:34:57 [I] 50
+2017/08/01 15:34:57 [A] fanme:recordRoutine,end_time:2017-08-01 15:34:57,ret:50.00
+
+2017/08/01 15:35:02 [A] fname:recordRoutine,start_time:2017-08-01 15:35:02
+
+2017/08/01 15:35:03 [I] 50
+2017/08/01 15:35:03 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:03,ret:50.00
+
+2017/08/01 15:35:07 [A] fname:recordRoutine,start_time:2017-08-01 15:35:07
+
+2017/08/01 15:35:07 [I] 50
+2017/08/01 15:35:07 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:07,ret:50.00
+
+2017/08/01 15:35:12 [A] fname:recordRoutine,start_time:2017-08-01 15:35:12
+
+2017/08/01 15:35:12 [I] 50
+2017/08/01 15:35:12 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:12,ret:50.00
+
+2017/08/01 15:35:17 [A] fname:recordRoutine,start_time:2017-08-01 15:35:17
+
+2017/08/01 15:35:17 [I] 50
+2017/08/01 15:35:17 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:17,ret:50.00
+
+2017/08/01 15:35:22 [A] fname:recordRoutine,start_time:2017-08-01 15:35:22
+
+2017/08/01 15:35:22 [I] 50
+2017/08/01 15:35:22 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:22,ret:50.00
+
+2017/08/01 15:35:27 [A] fname:recordRoutine,start_time:2017-08-01 15:35:27
+
+2017/08/01 15:35:27 [I] 50
+2017/08/01 15:35:27 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:27,ret:50.00
+
+2017/08/01 15:35:32 [A] fname:recordRoutine,start_time:2017-08-01 15:35:32
+
+2017/08/01 15:35:32 [I] 50
+2017/08/01 15:35:32 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:32,ret:50.00
+
+2017/08/01 15:35:37 [A] fname:recordRoutine,start_time:2017-08-01 15:35:37
+
+2017/08/01 15:35:37 [I] 50
+2017/08/01 15:35:37 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:37,ret:50.00
+
+2017/08/01 15:35:42 [A] fname:recordRoutine,start_time:2017-08-01 15:35:42
+
+2017/08/01 15:35:42 [I] 50
+2017/08/01 15:35:42 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:42,ret:50.00
+
+2017/08/01 15:35:47 [A] fname:recordRoutine,start_time:2017-08-01 15:35:47
+
+2017/08/01 15:35:47 [I] 50
+2017/08/01 15:35:47 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:47,ret:50.00
+
+2017/08/01 15:35:52 [A] fname:recordRoutine,start_time:2017-08-01 15:35:52
+
+2017/08/01 15:35:52 [I] 50
+2017/08/01 15:35:52 [A] fanme:recordRoutine,end_time:2017-08-01 15:35:52,ret:50.00
+
+2017/08/01 15:36:04 [A] fname:recordRoutine,start_time:2017-08-01 15:36:04
+
+2017/08/01 15:36:04 [I] 50
+2017/08/01 15:36:04 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:04,ret:50.00
+
+2017/08/01 15:36:09 [A] fname:recordRoutine,start_time:2017-08-01 15:36:09
+
+2017/08/01 15:36:09 [I] 50
+2017/08/01 15:36:09 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:09,ret:50.00
+
+2017/08/01 15:36:14 [A] fname:recordRoutine,start_time:2017-08-01 15:36:14
+
+2017/08/01 15:36:14 [I] 50
+2017/08/01 15:36:14 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:14,ret:50.00
+
+2017/08/01 15:36:19 [A] fname:recordRoutine,start_time:2017-08-01 15:36:19
+
+2017/08/01 15:36:19 [I] 50
+2017/08/01 15:36:19 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:19,ret:50.00
+
+2017/08/01 15:36:24 [A] fname:recordRoutine,start_time:2017-08-01 15:36:24
+
+2017/08/01 15:36:24 [I] 50
+2017/08/01 15:36:24 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:24,ret:50.00
+
+2017/08/01 15:36:29 [A] fname:recordRoutine,start_time:2017-08-01 15:36:29
+
+2017/08/01 15:36:29 [I] 50
+2017/08/01 15:36:29 [A] fanme:recordRoutine,end_time:2017-08-01 15:36:29,ret:50.00
+
