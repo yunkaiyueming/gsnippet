@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const RECV_BUF_LEN = 1024
+const RECV_BUF_LEN = 1024 * 4
 
 var msgCh = make(chan string)
 
@@ -22,7 +22,7 @@ func main() {
 
 	go SendMsg(conn)
 	go GetMsg(conn)
-	go BeatHeart(conn) //定时心跳
+	//go BeatHeart(conn) //定时心跳
 	go HandleMsg()
 
 	stop := make(chan int)
@@ -31,7 +31,7 @@ func main() {
 
 func SendMsg(conn net.Conn) {
 	//准备要发送的字符串
-	s := []byte(`1 {"zoneid":1,"secret":"0d734a1dc94fe5a914185f45197ea846","cmd":"fixbug.test","params":[],"uid":1000001}` + "\r\n")
+	s := []byte(`1 {"zoneid":1,"secret":"0d734a1dc94fe5a914185f45197ea846","cmd":"admin.getuserinfo","params":[],"uid":1000001}` + "\r\n")
 	_, err := conn.Write(s)
 	if err != nil {
 		println("Write Buffer Error:", err.Error())
@@ -69,13 +69,15 @@ func GetMsg(conn net.Conn) {
 
 func HandleMsg() {
 	t := make(map[string]interface{})
-	for { //如果这里处理数据比较耗时，可以使用1个协议处理1次
+	for { //如果这里处理数据比较耗时，可以使用1个协程处理1个消息
 		msg := <-msgCh
+		//header
+		//3
 		msg = msg[5:len(msg)]
-		fmt.Println(msg)
+		fmt.Println("========解析start===========")
 		json.Unmarshal([]byte(msg), &t)
 		fmt.Println(t)
 
-		fmt.Println("===================")
+		fmt.Println("=========解析end==========")
 	}
 }
