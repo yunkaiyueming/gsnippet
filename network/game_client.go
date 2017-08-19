@@ -44,7 +44,7 @@ func main() {
 			}
 			nextReadRet := make([]byte, nextLength)
 			m, _ := conn.Read(nextReadRet)
-			oneMsg += string(nextReadRet)
+			oneMsg += string(nextLength[0:m])
 			total += int16(m)
 			fmt.Println(total)
 		} else {
