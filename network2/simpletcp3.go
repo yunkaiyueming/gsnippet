@@ -13,7 +13,8 @@ func main() {
 	service := "192.168.8.81:15001"
 	conn, err := net.Dial("tcp", service)
 	checkError(err)
-	res := []byte(`1 {"zoneid":1,"secret":"0d734a1dc94fe5a914185f45197ea846","cmd":"admin.getuserinfo","params":[],"uid":1000001}` + "\r\n")
+	//res := []byte(`1 {"zoneid":1,"secret":"0d734a1dc94fe5a914185f45197ea846","cmd":"fixbug.test","params":[],"uid":1000001}` + "\r\n")
+	res := []byte(`1 {"zoneid":1,"secret":"0d734a1dc94fe5a914185f45197ea846","cmd":"admin.banmaillist","params":[],"uid":1000001}` + "\r\n")
 	_, err = conn.Write(res)
 	checkError(err)
 	//先取消息的header,header长度我们事先知道，所以这个长度大于header的长度即可

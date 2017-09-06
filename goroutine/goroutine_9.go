@@ -7,8 +7,9 @@ import (
 var num = make(chan int)
 
 func main() {
-	//test1()
-	test2()
+	test1()
+	//test2()
+	//test3()
 	for i := 0; i < 10; i++ {
 		fmt.Println(<-num)
 	}
@@ -29,4 +30,14 @@ func test2() {
 			num <- i //这里的i是具体的穿过来的，跟闭包是一个概念，变量和他的环境是一体的。
 		}(i)
 	}
+}
+
+func test3() {
+	for i := 0; i < 10; i++ {
+		go send(i)
+	}
+}
+
+func send(i int) {
+	num <- i
 }

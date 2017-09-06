@@ -5,8 +5,11 @@ import "fmt"
 var mapData map[string]int
 
 func main() {
-	TestMap()
-	TestMap2()
+	data := map[string]string{"k1": "v1", "k3": "v3"}
+	fmt.Println(data)
+	changeMap(data)
+	fmt.Println(data)
+
 }
 
 func InitMap() {
@@ -45,4 +48,8 @@ func TestMap2() {
 	fmt.Println(mapData)
 	mapData["s"] = 4
 	fmt.Println(mapData)
+}
+
+func changeMap(data map[string]string) {
+	data["k2"] = "d2"
 }
