@@ -1,3 +1,4 @@
 /*.log
 *.exe
 /cmd/*.exe~
+/img/*.png

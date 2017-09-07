@@ -7,7 +7,7 @@ import (
 )
 
 func contextWithTimeOut() {
-	d := time.Now().Add(50 * time.Millisecond)
+	d := time.Now().Add(5000 * time.Millisecond)
 	ctx, cancel := context.WithDeadline(context.Background(), d)
 
 	// Even though ctx will be expired, it is good practice to call its
@@ -15,11 +15,14 @@ func contextWithTimeOut() {
 	// context and its parent alive longer than necessary.
 	defer cancel()
 
-	select {
-	case <-time.After(1 * time.Second):
-		fmt.Println("overslept")
-	case <-ctx.Done():
-		fmt.Println(ctx.Err())
+	for {
+		select {
+		case <-time.After(1 * time.Second):
+			fmt.Println("overslept")
+		case <-ctx.Done():
+			fmt.Println(ctx.Err())
+			return
+		}
 	}
 }
 
