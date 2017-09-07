@@ -15,7 +15,7 @@ func (h *helloHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	ts := r.FormValue("ts")
 	tsInt, _ := strconv.Atoi(ts)
 
-	notify := w.(http.CloseNotifier).CloseNotify()
+	notify := w.(http.CloseNotifier).CloseNotify() //捕获客户端abort的通知
 
 	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(tsInt)*time.Second)
 	defer cancel()
