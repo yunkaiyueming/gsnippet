@@ -39,7 +39,7 @@ func benchmarkStringFunction(n int, index int) (d time.Duration) {
 	return d
 }
 
-func main() {
+func main1() {
 	way = make(map[int]string, 5)
 	way[0] = "fmt.Sprintf"
 	way[1] = "+"

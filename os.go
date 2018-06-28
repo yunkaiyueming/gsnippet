@@ -26,4 +26,6 @@ func GetOs() {
 	//runtime.GOARCH 返回当前的系统架构；runtime.GOOS 返回当前的操作系统。
 	fmt.Println(runtime.GOARCH)
 	fmt.Println(runtime.GOOS)
+	fmt.Println(11232)
+	fmt.Println("hello goland")
 }

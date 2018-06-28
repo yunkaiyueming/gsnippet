@@ -28,7 +28,7 @@ func EchoDefaultStdInfo() {
 	fmt.Println(log.Flags())
 	fmt.Println(log.Prefix())
 	log.Println("it default value")
-	log.Output(3, "输出三级信息")
+	log.Output(0, "输出三级信息")
 }
 
 func RecordMyLog(msg string) {

@@ -7,7 +7,7 @@ type point struct {
 	x, y int
 }
 
-func main() {
+func main5() {
 	p := point{1, 2}
 	fmt.Printf("%v\n", p)
 	fmt.Printf("%+v\n", p)

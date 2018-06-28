@@ -2,3 +2,7 @@
 *.exe
 /cmd/*.exe~
 /img/*.png
+/zhihu/question
+/zhihu/user
+/.idea
+/zhihu/topic

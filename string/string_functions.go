@@ -5,7 +5,7 @@ import "fmt"
 
 var p = fmt.Println
 
-func main() {
+func main2() {
 	str := "内建函数测试，好多啊，真实测都测不过来。"
 	p(showSubString(str, 3))
 	p(showSubString(str, 9))
