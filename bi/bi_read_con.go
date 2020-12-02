@@ -19,7 +19,7 @@ func main() {
 }
 
 func recordRoutine() string {
-	resp, err := httplib.Get("http://bi.rayjoy.com:65534/v1/maintain/get_routines").String()
+	resp, err := httplib.Get("http://bi.tt.com:65534/v1/maintain/get_routines").String()
 	if err != nil {
 		fmt.Println("err: ", err.Error())
 	}
