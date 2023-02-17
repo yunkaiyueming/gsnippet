@@ -84,3 +84,5 @@ func main() {
 
 //分析：
 //go tool pprof cup.ppfor ===> top/web/list
+
+//go run
