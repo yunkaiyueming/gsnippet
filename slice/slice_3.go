@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	array := [5]int{0, 1, 2, 3, 4}
+	array := [5]int{0, 1, 2, 3, 4} //字面量创建
 	slice := array[:]
 	fmt.Println(slice)
 	fmt.Printf("slice in main1 %p \n", &slice)

@@ -1,0 +1,101 @@
+
+var data map[string]string
+
+data:=make(map[string]string)
+
+var data =  map[string]int{
+	"1": 2,
+	"3": 4,
+	"5": 6,
+}
+
+map字典，集合，映射
+
+
+make map 创建过程：
+计算哈希占用的内存是否溢出或者超出能分配的最大值；
+调用 runtime.fastrand 获取一个随机的哈希种子；
+根据传入的 hint 计算出需要的最小需要的桶的数量；
+使用 runtime.makeBucketArray 创建用于保存桶的数组；
+
+map的常用操作：
+循环，读取，写入，扩容，删除
+
+
+Go 语言使用拉链法来解决哈希碰撞的问题实现了哈希表，它的访问、写入和删除等操作都在编译期间转换成了运行时的函数或者方法。
+哈希在每一个桶中存储键对应哈希的前 8 位，当对哈希进行操作时，这些 tophash 就成为可以帮助哈希快速遍历桶中元素的缓存。
+
+哈希表的每个桶都只能存储 8 个键值对，一旦当前哈希的某个桶超出 8 个，新的键值对就会存储到哈希的溢出桶中。
+随着键值对数量的增加，溢出桶的数量和哈希的装载因子也会逐渐升高，超过一定范围就会触发扩容，扩容会将桶的数量翻倍，元素再分配的过程也是在调用写操作时增量进行的，不会造成性能的瞬时巨大抖动。
+
+设计原理：
+解决hash碰撞的问题，常用的方法有：开放寻址法和拉链法
+
+开放寻址法：hash函数+数组，冲突了放入数组下一个位置
+拉链法：
+
+
+----go的map的底层数据结构实现：-----
+type hmap struct {
+	// Note: the format of the hmap is also encoded in cmd/compile/internal/reflectdata/reflect.go.
+	// Make sure this stays in sync with the compiler's definition.
+	count     int // # live cells == size of map.  Must be first (used by len() builtin)
+	flags     uint8
+	B         uint8  // log_2 of # of buckets (can hold up to loadFactor * 2^B items)
+	noverflow uint16 // approximate number of overflow buckets; see incrnoverflow for details
+	hash0     uint32 // hash seed
+
+	buckets    unsafe.Pointer // array of 2^B Buckets. may be nil if count==0.
+	oldbuckets unsafe.Pointer // previous bucket array of half the size, non-nil only when growing
+	nevacuate  uintptr        // progress counter for evacuation (buckets less than this have been evacuated)
+
+	extra *mapextra // optional fields
+}
+
+
+type mapextra struct {
+	// If both key and elem do not contain pointers and are inline, then we mark bucket
+	// type as containing no pointers. This avoids scanning such maps.
+	// However, bmap.overflow is a pointer. In order to keep overflow buckets
+	// alive, we store pointers to all overflow buckets in hmap.extra.overflow and hmap.extra.oldoverflow.
+	// overflow and oldoverflow are only used if key and elem do not contain pointers.
+	// overflow contains overflow buckets for hmap.buckets.
+	// oldoverflow contains overflow buckets for hmap.oldbuckets.
+	// The indirection allows to store a pointer to the slice in hiter.
+	overflow    *[]*bmap 溢出桶链表
+	oldoverflow *[]*bmap 旧溢出桶链表
+
+	// nextOverflow holds a pointer to a free overflow bucket.
+	nextOverflow *bmap 下一个空闲溢出桶地址
+}
+
+type bmap struct {
+	// tophash generally contains the top byte of the hash value
+	// for each key in this bucket. If tophash[0] < minTopHash,
+	// tophash[0] is a bucket evacuation state instead.
+	tophash [bucketCnt]uint8  
+	//tohash：	存储桶内 8 个 key 的 hash 值的高字节。tophash[0] < minTopHash 表示桶处于扩容迁移状态
+	// Followed by bucketCnt keys and then bucketCnt elems.
+	// NOTE: packing all the keys together and then all the elems together makes the
+	// code a bit more complicated than alternating key/elem/key/elem/... but it allows
+	// us to eliminate padding which would be needed for, e.g., map[int64]int8.
+	// Followed by an overflow pointer.
+}
+
+golang的map的实现原理：
+（1）底层数据结构为hash数组 + 桶 + 溢出的桶链表，每个桶存储最多8个key-value对； 
+（2）查找和插入的原理：key 的 hash 值（低阶位）与桶数量相与，得到 key 所在的 hash 桶，再用key 的高 8 位与桶中的 tophash[i] 对比，相同则进一步对比key值，key 值相等则找到； 
+（3）delete 操作只置删除标志位（emptyOne）且不能被使用，防止被删除的元素再次插入时出现移动； 
+（4）Go map 不支持并发。插入（更新）、删除、搬迁等操作会置 hashWriting 标志，检测到并发直接 panic； 
+（5）每次扩容 hash 表增大 1 倍，hash 表只增不减； 
+（6）扩容类型有两种：一种是真扩容，扩到 hash 桶数量为原来的两倍，针对元素数量过多的情况；一种是假扩容，hash 桶数量不变，只是把元素搬迁到新的 map，针对溢出桶过多的情况。
+
+时间与空间复杂度
+（1）时间复杂度。 go map 是 hash 实现，我们先不管具体原理，江湖人人皆知基于 hash 实现的算法其时间复杂度均为 O(1)。
+正常情况，且不考虑扩容状态，复杂度O(1)：通过hash值定位桶是O(1)，一个桶最多8个元素，合理的hash算法应该能把元素相对均匀散列，所以溢出链表（如果有）也不会太长，所以虽然在桶和溢出链表上定位key是遍历，考虑到数量小也可以认为是O(1)。
+正常情况，处于扩容状态时，复杂度也是O(1)：相比于上一种状态，扩容会增加搬迁最多 2 个桶和溢出链表的时间消耗，当溢出链表不太长时，复杂度也可以认为是 O(1)。
+极端情况，散列极不均匀，大部分数据被集中在一条散列链表上，复杂度退化为O(n)。
+Go 采用的 hash 算法是很成熟的算法，极端情况暂不考虑。所以综合情况下 Go map 的时间复杂度为 O(1)。
+（2）空间复杂度。 首先我们不考虑因删除大量元素导致的空间浪费情况，因为删除只是值 key 的标志为 emptyOne，这种情况现在 Go 是留给程序员自己解决，所以这里只考虑一个持续增长状态的 map 的一个空间使用率： 由于溢出桶数量超过 hash 桶数量时会触发假扩容，所以最坏的情况是数据被集中在一条链上，hash表基本是空的，这时空间浪费 O(n)。
+最好的情况下，数据均匀散列在 hash 表上，没有元素溢出，这时最好的空间复杂度就是负载因子决定了，当前 Go 的负载因子由全局变量决定，即 loadFactorNum/loadFactorDen = 6.5。即平均每个hash 桶被分配到 6.5 个元素以上时，开始扩容。所以最小的空间浪费是(8-6.5)/8 = 0.1875，即O(0.1875n)
+结论： Go map 的空间复杂度（指除去正常存储元素所需空间之外的空间浪费）是 O(0.1875n) ~ O(n) 之间。
