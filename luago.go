@@ -3,6 +3,16 @@ package main
 import (
 	"fmt"
 	lua "github.com/yuin/gopher-lua"
+	// "github.com/tengattack/gluasql"
+
+	mysql "github.com/tengattack/gluasql/mysql"
+	luajson "github.com/layeh/gopher-json"
+	
+	// redslib "github.com/go-redis/redis"
+
+	redis "gsnippet/gopherredis"
+	
+	tcp "github.com/vadv/gopher-lua-libs/tcp"
 )
 
 func main(){
@@ -15,7 +25,7 @@ func Double(L *lua.LState) int {
     lv := L.ToInt(1)             /* get argument */
     L.Push(lua.LNumber(lv * 2)) /* push result */
     return 1                     /* number of results */
-} 
+}
 
 func execLuaStr(){
 	L := lua.NewState() // 创建一个lua解释器实例
@@ -29,6 +39,10 @@ func execLuaStr(){
 func execLuaFile(){
 	L := lua.NewState()
 	L.SetGlobal("double", L.NewFunction(Double)) 
+	L.PreloadModule("mysql", mysql.Loader)
+	L.PreloadModule("redis", redis.Loader)
+	L.PreloadModule("JSON", luajson.Loader)
+	L.PreloadModule("tcp", tcp.Loader)
 
 	defer L.Close()
 	// 加载fib.lua

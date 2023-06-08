@@ -9,10 +9,12 @@ func main() {
 	gen := func(ctx context.Context) <-chan int {
 		dst := make(chan int)
 		n := 1
+
 		go func() {
 			for {
 				select {
 				case <-ctx.Done():
+					fmt.Println("end==>", ctx.Err())
 					return // returning not to leak the goroutine
 				case dst <- n:
 					fmt.Println("send", n)
@@ -20,6 +22,7 @@ func main() {
 				}
 			}
 		}()
+
 		return dst
 	}
 

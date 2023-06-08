@@ -1,0 +1,42 @@
+
+
+type hchan struct {
+    qcount   uint           // total data in the queue
+    dataqsiz uint           // size of the circular queue
+    buf      unsafe.Pointer // points to an array of dataqsiz elements 缓冲数据用的循环链表
+    elemsize uint16
+    closed   uint32
+    elemtype *_type // element type
+    sendx    uint   // send index
+    recvx    uint   // receive index
+    recvq    waitq  // list of recv waiters  接受等待队列 接收goroutinue结构体的队列，是双向链表，
+    sendq    waitq  // list of send waiters 发送等待队列
+
+    // lock protects all fields in hchan, as well as several
+    // fields in sudogs blocked on this channel.
+    //
+    // Do not change another G's status while holding this lock
+    // (in particular, do not ready a G), as this can deadlock
+    // with stack shrinking.
+    lock mutex
+}
+
+channel的初始化过程
+
+channel的发送，接收数据过程，每一步的操作的细节可以细化为：
+第一，加锁
+第二，把数据从goroutine中copy到“缓存队列”中(或者从队列中copy到goroutine中）。
+第三，释放锁
+
+channel的发送数据阻塞过程：
+channel的缓存循环队列数据放满，然后新协程在mpg管理下挂起，将新协程数据（抽象成的含有协程指针和send元素的结构体)放入sendq发送等待队列里 (直到缓存队列有空位置后，取出放入数据)
+
+channel的取数据阻塞过程：
+channel的缓存循环队列数据为空，然后新协程在mpg管理下挂起，新协程（抽象成含有协程指针和空元素的sudog的结构体）放入recvq等待队列里（遇到有来发送数据的协程，channnel不用上锁，直接2个协程交换数据，减少内存的copy）
+
+
+ch := make(chan int)
+// 声明一个只能写入数据的通道类型, 并赋值为ch
+var chSendOnly chan<- int = ch
+//声明一个只能读取数据的通道类型, 并赋值为ch
+var chRecvOnly <-chan int = ch
